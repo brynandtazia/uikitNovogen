@@ -4195,7 +4195,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/uikit\/scss\/components\/sortable.scss",
 		"outputAbbreviatedPath": "\/bower_components\/uikit\/scss\/css\/sortable.css",
