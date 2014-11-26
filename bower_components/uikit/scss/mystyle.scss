@@ -29,6 +29,25 @@
     }
   }
 
+  .uk-dropdown-navbar{
+    background: rgba(0, 0, 0, 0);
+    ul{
+      background: rgba(0, 0, 0, .1);
+      li{
+        margin-bottom: 10px;
+        a{
+        color: #fff;
+          &:hover{
+            background: #fff;
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+
+
+
   .logo img{
     height: 50px;
     margin-top: 5px;
@@ -78,10 +97,6 @@
     }
 
   }
-  .social-wrap{
-  }
-  .share-wrap{
-  }
 }
 
 .uk-navbar-toggle{
@@ -96,7 +111,12 @@
 .uk-button-primary:hover{
   background: $dark;
 }
-
+.uk-button-secondary{
+  background: #fff;
+  & :active{
+    background: #ffe;
+  }
+}
 .uk-caption-panel{
   background: none;
   button{
@@ -180,8 +200,11 @@
   border-bottom: 1px solid rgba(0, 0, 0, .3);
   padding-left: 45px;
   padding-top: 20px;
+  a{
+    color: #667;
+  }
   &:hover{
-    background: rgba(29, 173, 165, .1);
+    background: rgba(29, 173, 165, 0);
   }
   h2{
     margin-top: 9px;
@@ -195,13 +218,30 @@
     opacity: .5;
   }
 }
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .block-two{
   height: 180px;
   //  background: yellow;
   border-right: 1px solid rgba(0, 0, 0, .3);
   border-bottom: 1px solid rgba(0, 0, 0, .3);
   padding-top: 20px;
-  padding-left: 25px;
+  padding-left: 45px;
+  a{
+    color: #667;
+  }
   &:hover{
     background: rgba(29, 173, 165, .1);
   }
@@ -244,7 +284,7 @@
   //  background: $aqua;
   border-right: 1px solid rgba(0, 0, 0, .3);
   border-bottom: 1px solid rgba(0, 0, 0, .3);
-  padding-left: 35px;
+  padding-left: 45px;
   padding-top: 20px;
   &:hover{
     background: rgba(29, 173, 165, .1);
@@ -266,7 +306,7 @@
   //  background: brown;
   border-right: 1px solid rgba(0, 0, 0, .3);
   border-bottom: 1px solid rgba(0, 0, 0, .3);
-  padding-left: 35px;
+  padding-left: 45px;
   padding-top: 20px;
   &:hover{
     background: rgba(29, 173, 165, .1);
@@ -287,7 +327,7 @@
 
 footer{
   padding-top: 40px;
-  height: 200px;
+  height: 180px;
   background: $dark;
   .footer-links .uk-list{
     padding-left: 8%;
@@ -299,7 +339,9 @@ footer{
     padding-right: 40px;
   .twitter-bottom, .linkedin-bottom, .utube-bottom{
     height: 40px;
+    margin-bottom: 0;
   }
+
   }
   .shares-footer{
       padding-left: 4%;
