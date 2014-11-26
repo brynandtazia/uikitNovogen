@@ -8652,11 +8652,12 @@ footer {
   /* line 353, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
   footer .uk-form legend {
     color: #fff;
-    font-size: 1em; }
-    /* line 356, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    font-size: 1em;
+    padding-bottom: 0; }
+    /* line 357, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
     footer .uk-form legend:after {
       border: none; }
-  /* line 360, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 361, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
   footer .uk-form .uk-button {
     background: #1dada5;
     color: #fff;
