@@ -8401,7 +8401,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
 
 /* line 101, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
 .long-list ul {
-  width: 260px; }
+  width: 265px; }
 
 /* line 104, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
 .longer-list ul {
@@ -8684,5 +8684,10 @@ footer {
     background: #1dada5;
     color: #fff;
     text-align: center; }
+
+/* line 388, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+.pdf {
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=mystyle.css.map */
