@@ -1,0 +1,105 @@
+.programs-hero{
+  height: 240px;
+  background: url("../../../img/DNA1.jpg");
+  background-size: cover;
+  padding-top: 10px;
+  @media screen and (min-width: 680px){
+    height: 300px;
+  }
+  .hero-overlay{
+    background: rgba(0, 0, 0, .6);
+    height: 220px;
+    width: 90%;
+    margin-left: 5%;
+    color: #fff;
+    text-align: center;
+    @media screen and(min-width: 680px){
+      margin-left:  10%;
+      width: 80%;
+      height: 250px;
+    }
+  }
+  .hero-content{
+
+  }
+  .hero-divider{
+    background:#fff;
+    height: 2px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.block-one-programs{
+  height: 180px;
+  border-right: 2px solid #fff;
+  text-align: center;
+  background: $aqua;
+  color: #fff;
+  a{
+    color: #667;
+    text-decoration: none;
+  }
+  &:hover{
+    background: rgba(29, 173, 165, .1);
+    color: $dark;
+    h2{
+    color: $dark;
+    }
+    p{
+      color: $dark;
+    }
+  }
+  h2{
+    margin-top: 9px;
+    margin-bottom: 4px;
+    color: #fff;
+        max-width: 80%;
+    margin: auto
+  }
+  p{
+    margin-top: 0px;
+    color: #fff;
+        max-width: 80%;
+    margin: auto
+  }
+
+}
+
+
+.block-two-programs{
+  height: 180px;
+  background: $aqua;
+  text-align: center;
+  color: #fff;
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  &:hover{
+    background: rgba(29, 173, 165, .1);
+    color: $dark;
+    h2{
+    color: $dark;
+    }
+    p{
+      color: $dark;
+    }
+  }
+  h2{
+    margin-top: 9px;
+    margin-bottom: 4px;
+    color: #fff;
+        max-width: 80%;
+    margin: auto
+  }
+  p{
+    margin-top: 0px;
+    color: #fff;
+        max-width: 80%;
+margin: auto
+  }
+
+}

@@ -1,0 +1,73 @@
+/* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+.programs-hero {
+  height: 240px;
+  background: url("../../../img/DNA1.jpg");
+  background-size: cover;
+  padding-top: 10px; }
+  @media screen and (min-width: 680px) {
+    .programs-hero {
+      height: 300px; } }
+  /* line 9, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .programs-hero .hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 220px;
+    width: 90%;
+    margin-left: 5%;
+    color: #fff;
+    text-align: center; }
+    @media screen and (min-width: 680px) {
+      .programs-hero .hero-overlay {
+        margin-left: 10%;
+        width: 80%;
+        height: 250px; } }
+  /* line 25, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .programs-hero .hero-divider {
+    background: #fff;
+    height: 2px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; }
+
+/* line 34, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+.block-one-programs {
+  height: 180px;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-left: 45px;
+  padding-top: 20px;
+  text-align: center; }
+  /* line 41, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-one-programs a {
+    color: #667;
+    text-decoration: none; }
+  /* line 45, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-one-programs:hover {
+    background: rgba(29, 173, 165, 0.1); }
+  /* line 48, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-one-programs h2 {
+    margin-top: 9px;
+    margin-bottom: 4px; }
+  /* line 52, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-one-programs p {
+    margin-top: 0px; }
+
+/* line 59, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+.block-two-programs {
+  height: 180px;
+  border-right: 2px solid #fff; }
+  /* line 64, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-two-programs a {
+    color: #667;
+    text-decoration: none; }
+  /* line 68, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-two-programs:hover {
+    background: rgba(29, 173, 165, 0.1); }
+  /* line 71, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-two-programs h2 {
+    margin-top: 9px;
+    margin-bottom: 4px; }
+  /* line 75, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs.scss */
+  .block-two-programs p {
+    margin-top: 0px; }
+
+/*# sourceMappingURL=programs.css.map */
