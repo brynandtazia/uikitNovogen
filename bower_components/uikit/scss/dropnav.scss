@@ -1,0 +1,115 @@
+.uk-navbar{
+  background: $dark;
+  height: 60px;
+  .uk-navbar-nav{
+    margin-top: 16px;
+        padding-right: 3%;
+    text-transform: uppercase;
+    color: #fff;
+    li{
+      background: #5f5f5f;
+            margin-right: 16px;
+    }
+    li > a{
+      height: 26px;
+      line-height: 23px;
+      border: 2px solid #fff;
+      font-family: $googlefont;
+      font-weight: 500;
+    }
+  }
+
+  .uk-dropdown-navbar{
+    background: rgba(0, 0, 0, 0);
+    ul{
+      background: rgba(0, 0, 0, .1);
+      li{
+        margin-bottom: 10px;
+        a{
+        color: #fff;
+          &:hover{
+            background: #fff;
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .logo img{
+    height: 50px;
+    margin-top: 5px;
+
+  }
+}
+
+.social-bar{
+  height: 30px;
+  background: #fff;
+  @media screen and(min-width: 460px){
+      height: 36px;
+    }
+  .nasdaq-top{
+    height: 16px;
+    margin-left: 5%;
+    @media screen and(min-width: 460px){
+      height: 20px;
+    }
+  }
+  .asx-top{
+    height: 24px;
+    padding-left: 10px;
+    @media screen and(min-width: 460px){
+      height: 32px;
+    }
+  }
+  .twitter-top{
+    height: 24px;
+    padding-left: 10px;
+    @media screen and(min-width: 460px){
+      height: 32px;
+    }
+  }
+  .linkedin-top{
+    height: 24px;
+    padding-left: 10px;
+    @media screen and(min-width: 460px){
+      height: 32px;
+    }
+  }
+  .utube-top{
+    height: 24px;
+    padding-left: 10px;
+    @media screen and(min-width: 460px){
+      height: 32px;
+    }
+
+  }
+}
+.long-list ul{
+  width: 265px;
+}
+.longer-list ul{
+  width: 350px;
+}
+
+.uk-navbar-toggle{
+  margin-top: 10px;
+  margin-right: 3%;
+  color: #fff;
+}
+#mobi-nav{
+  color: #fff;
+}
+
+.uk-button-primary:hover{
+  background: $dark;
+}
+.uk-button-secondary{
+  background: #fff;
+  & :active{
+    background: #ffe;
+  }
+}

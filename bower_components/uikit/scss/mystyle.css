@@ -8314,84 +8314,84 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   -webkit-animation-duration: 0.04s;
   animation-duration: 0.04s; }
 
-/* line 11, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .uk-navbar {
   background: #5f5f5f;
   height: 60px; }
-  /* line 14, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 4, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .uk-navbar .uk-navbar-nav {
     margin-top: 16px;
     padding-right: 3%;
     text-transform: uppercase;
     color: #fff; }
-    /* line 19, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 9, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
     .uk-navbar .uk-navbar-nav li {
       background: #5f5f5f;
       margin-right: 16px; }
-    /* line 23, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 13, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
     .uk-navbar .uk-navbar-nav li > a {
       height: 26px;
       line-height: 23px;
       border: 2px solid #fff;
       font-family: 'Raleway', sans-serif;
       font-weight: 500; }
-  /* line 32, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 22, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .uk-navbar .uk-dropdown-navbar {
     background: rgba(0, 0, 0, 0); }
-    /* line 34, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 24, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
     .uk-navbar .uk-dropdown-navbar ul {
       background: rgba(0, 0, 0, 0.1); }
-      /* line 36, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+      /* line 26, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
       .uk-navbar .uk-dropdown-navbar ul li {
         margin-bottom: 10px; }
-        /* line 38, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+        /* line 28, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
         .uk-navbar .uk-dropdown-navbar ul li a {
           color: #fff; }
-          /* line 40, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+          /* line 30, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
           .uk-navbar .uk-dropdown-navbar ul li a:hover {
             background: #fff;
             color: #5f5f5f; }
-  /* line 51, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 41, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .uk-navbar .logo img {
     height: 50px;
     margin-top: 5px; }
 
-/* line 58, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 48, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .social-bar {
   height: 30px;
   background: #fff; }
   @media screen and (min-width: 460px) {
     .social-bar {
       height: 36px; } }
-  /* line 64, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 54, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .social-bar .nasdaq-top {
     height: 16px;
     margin-left: 5%; }
     @media screen and (min-width: 460px) {
       .social-bar .nasdaq-top {
         height: 20px; } }
-  /* line 71, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 61, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .social-bar .asx-top {
     height: 24px;
     padding-left: 10px; }
     @media screen and (min-width: 460px) {
       .social-bar .asx-top {
         height: 32px; } }
-  /* line 78, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 68, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .social-bar .twitter-top {
     height: 24px;
     padding-left: 10px; }
     @media screen and (min-width: 460px) {
       .social-bar .twitter-top {
         height: 32px; } }
-  /* line 85, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 75, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .social-bar .linkedin-top {
     height: 24px;
     padding-left: 10px; }
     @media screen and (min-width: 460px) {
       .social-bar .linkedin-top {
         height: 32px; } }
-  /* line 92, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 82, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .social-bar .utube-top {
     height: 24px;
     padding-left: 10px; }
@@ -8399,43 +8399,43 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       .social-bar .utube-top {
         height: 32px; } }
 
-/* line 101, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 91, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .long-list ul {
   width: 265px; }
 
-/* line 104, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 94, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .longer-list ul {
   width: 350px; }
 
-/* line 108, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 98, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .uk-navbar-toggle {
   margin-top: 10px;
   margin-right: 3%;
   color: #fff; }
 
-/* line 113, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 103, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 #mobi-nav {
   color: #fff; }
 
-/* line 117, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 107, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .uk-button-primary:hover {
   background: #5f5f5f; }
 
-/* line 120, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 110, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .uk-button-secondary {
   background: #fff; }
-  /* line 122, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 112, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
   .uk-button-secondary :active {
     background: #ffe; }
 
-/* line 126, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 2, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
 .uk-caption-panel {
   background: none; }
-  /* line 128, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 4, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .uk-caption-panel button {
     background: #1dada5; }
 
-/* line 132, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 8, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
 .uk-slideshow {
   max-height: 200px;
   background-size: contain; }
@@ -8443,18 +8443,18 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     .uk-slideshow {
       max-height: 260px; } }
 
-/* line 139, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 15, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
 .caption-text {
   background: rgba(0, 0, 0, 0.2);
   font-family: 'Raleway', sans-serif;
   padding-top: 20px; }
-  /* line 143, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 19, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .caption-text h3 {
     font-family: 'Raleway', sans-serif; }
     @media screen and (min-width: 680px) {
       .caption-text h3 {
         font-size: 1.4em; } }
-  /* line 149, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 25, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .caption-text h4 {
     font-family: 'Raleway', sans-serif;
     margin-top: 0px;
@@ -8466,68 +8466,68 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       .caption-text h4 {
         font-size: 1.3em; } }
 
-/* line 164, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 40, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
 .slideshow-wrap .caption-text {
   width: 80%;
   max-width: 800px;
   height: 200px;
   margin: auto; }
 
-/* line 172, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 48, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
 .slideshow-wrap-two {
   background: #1dada5;
   height: 200px; }
-  /* line 176, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 52, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .slideshow-wrap-two .uk-slideshow li {
     height: 200px; }
-  /* line 180, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 56, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .slideshow-wrap-two .quotes {
     padding-top: 20px; }
-    /* line 182, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 58, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
     .slideshow-wrap-two .quotes em {
       color: rgba(255, 255, 255, 0.8); }
-    /* line 185, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 61, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
     .slideshow-wrap-two .quotes .uk-icon-quote-left {
       padding-right: 10px;
       opacity: 0.5; }
-    /* line 189, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 65, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
     .slideshow-wrap-two .quotes .uk-icon-quote-right {
       padding-left: 10px;
       opacity: 0.5; }
-  /* line 194, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 70, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .slideshow-wrap-two .caption-text {
     background: none; }
-  /* line 197, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 73, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .slideshow-wrap-two .uk-caption-panel {
     background: none; }
 
-/* line 203, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
 .block-one {
   height: 180px;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 45px;
   padding-top: 20px; }
-  /* line 209, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 7, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-one a {
     color: #667;
     text-decoration: none; }
-  /* line 213, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 11, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-one:hover {
     background: rgba(29, 173, 165, 0.1); }
-  /* line 216, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 14, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-one h2 {
     margin-top: 9px;
     margin-bottom: 4px; }
-  /* line 220, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 18, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-one p {
     margin-top: 0px; }
-  /* line 223, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 21, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-one img {
     height: 30px;
     opacity: 0.5; }
 
-/* line 228, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 26, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -8535,7 +8535,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   padding-top: 25px;
   height: 0; }
 
-/* line 234, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 32, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -8543,151 +8543,151 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   width: 100%;
   height: 100%; }
 
-/* line 242, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 40, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
 .block-two {
   height: 180px;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-top: 20px;
   padding-left: 45px; }
-  /* line 249, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 47, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-two a {
     color: #667;
     text-decoration: none; }
-  /* line 253, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 51, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-two:hover {
     background: rgba(29, 173, 165, 0.1); }
-  /* line 256, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 54, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-two h2 {
     margin-top: 9px;
     margin-bottom: 4px; }
-  /* line 260, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 58, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-two p {
     margin-top: 0px; }
-  /* line 263, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 61, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-two img {
     height: 30px;
     opacity: 0.5; }
 
-/* line 268, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 66, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
 .block-three {
   height: 180px;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 45px;
   padding-top: 20px; }
-  /* line 275, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 73, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-three a {
     color: #667;
     text-decoration: none; }
-  /* line 279, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 77, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-three:hover {
     background: rgba(29, 173, 165, 0.1); }
-  /* line 282, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 80, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-three h2 {
     margin-top: 9px;
     margin-bottom: 4px; }
-  /* line 286, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 84, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-three p {
     margin-top: 0px; }
-  /* line 289, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 87, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-three img {
     height: 30px;
     opacity: 0.5; }
 
-/* line 294, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 92, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
 .block-four {
   height: 180px;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 45px;
   padding-top: 20px; }
-  /* line 301, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 99, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-four a {
     color: #667;
     text-decoration: none; }
-  /* line 305, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 103, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-four:hover {
     background: rgba(29, 173, 165, 0.1); }
-  /* line 308, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 106, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-four h2 {
     margin-top: 4px;
     margin-bottom: 6px; }
-  /* line 312, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 110, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-four p {
     margin-top: 0px; }
-  /* line 315, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 113, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-four img {
     height: 30px;
     opacity: 0.5; }
 
-/* line 320, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 118, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
 .block-five {
   height: 180px;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-left: 45px;
   padding-top: 20px; }
-  /* line 327, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 125, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-five a {
     color: #667;
     text-decoration: none; }
-  /* line 331, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 129, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-five:hover {
     background: rgba(29, 173, 165, 0.1); }
-  /* line 334, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 132, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-five h2 {
     margin-top: 9px;
     margin-bottom: 4px; }
-  /* line 338, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 136, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-five p {
     margin-top: 0px; }
-  /* line 341, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 139, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
   .block-five img {
     height: 30px;
     opacity: 0.5; }
 
-/* line 348, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+/* line 146, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid */
+.pdf {
+  height: 100%;
+  width: 100%; }
+
+/* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
 footer {
   padding-top: 40px;
   height: 180px;
   background: #5f5f5f; }
-  /* line 352, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 5, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .footer-links .uk-list {
     padding-left: 8%; }
-  /* line 355, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 8, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .uk-list {
     color: #fff; }
-  /* line 358, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 11, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .social-footer {
     padding-right: 40px; }
-    /* line 360, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 13, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
     footer .social-footer .twitter-bottom, footer .social-footer .linkedin-bottom, footer .social-footer .utube-bottom {
       height: 40px;
       margin-bottom: 0; }
-  /* line 366, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 19, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .shares-footer {
     padding-left: 4%; }
-    /* line 368, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 21, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
     footer .shares-footer img {
       width: 90px; }
-  /* line 373, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 26, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .uk-form legend {
     color: #fff;
     font-size: 1em;
     padding-bottom: 0; }
-    /* line 377, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+    /* line 30, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
     footer .uk-form legend:after {
       border: none; }
-  /* line 381, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
+  /* line 34, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .uk-form .uk-button {
     background: #1dada5;
     color: #fff;
     text-align: center; }
-
-/* line 388, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/mystyle.scss */
-.pdf {
-  height: 100%;
-  width: 100%; }
 
 /*# sourceMappingURL=mystyle.css.map */

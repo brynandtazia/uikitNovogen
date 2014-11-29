@@ -1,0 +1,40 @@
+footer{
+  padding-top: 40px;
+  height: 180px;
+  background: $dark;
+  .footer-links .uk-list{
+    padding-left: 8%;
+  }
+  .uk-list{
+    color: #fff;
+  }
+  .social-footer{
+    padding-right: 40px;
+  .twitter-bottom, .linkedin-bottom, .utube-bottom{
+    height: 40px;
+    margin-bottom: 0;
+  }
+
+  }
+  .shares-footer{
+      padding-left: 4%;
+    img{
+      width: 90px;
+    }
+  }
+  .uk-form{
+    legend{
+      color: #fff;
+      font-size: 1em;
+      padding-bottom: 0;
+      &:after{
+        border: none;
+      }
+    }
+    .uk-button{
+      background: $aqua;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
