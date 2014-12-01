@@ -20,7 +20,17 @@
     }
   }
   .hero-content{
+    font-size: 1rem;
+    padding-top: 5px;
+    width: 90%;
+    @media screen and(min-width: 680px){
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
+    @media screen and(min-width: 980px){
+      font-size: 1.4rem;
 
+    }
   }
   .hero-divider{
     background:#fff;
@@ -40,12 +50,13 @@
   a{
     color: #667;
     text-decoration: none;
+    height: 100%;
   }
   &:hover{
     background: rgba(29, 173, 165, .1);
     color: $dark;
     h2{
-    color: $dark;
+      color: $dark;
     }
     p{
       color: $dark;
@@ -55,14 +66,25 @@
     margin-top: 9px;
     margin-bottom: 4px;
     color: #fff;
-        max-width: 80%;
-    margin: auto
+    max-width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+    @media screen and(min-width: 680px){
+      font-size: 1.7rem;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
   }
   p{
     margin-top: 0px;
     color: #fff;
-        max-width: 80%;
-    margin: auto
+    max-width: 80%;
+    margin: auto;
+    font-size: 1rem;
+    @media screen and(min-width: 680px){
+      font-size: 1.2rem;
+
+    }
   }
 
 }
@@ -82,7 +104,7 @@
     background: rgba(29, 173, 165, .1);
     color: $dark;
     h2{
-    color: $dark;
+      color: $dark;
     }
     p{
       color: $dark;
@@ -92,14 +114,74 @@
     margin-top: 9px;
     margin-bottom: 4px;
     color: #fff;
-        max-width: 80%;
-    margin: auto
+    max-width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+    @media screen and(min-width: 680px){
+      font-size: 1.7rem;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
   }
   p{
     margin-top: 0px;
     color: #fff;
-        max-width: 80%;
-margin: auto
-  }
+    max-width: 80%;
+    margin: auto;
+    font-size: 1rem;
+    @media screen and(min-width: 680px){
+      font-size: 1.2rem;
 
+    }
+  }
+}
+.dark-pre-programs{
+  height: 180px;
+  background: $dark;
+  width: 100%;
+  h2{
+    color: #fff;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    padding-top: 20px;
+    @media screen and(min-width: 680px){
+      font-size: 1.3rem;
+      padding-bottom: 20px;
+    }
+  }
+  p{
+    color: #fff;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: .9rem;
+    @media screen and(min-width: 680px){
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.pipeline-headings{
+  background: $aqua;
+  color: #fff;
+  height: 100px;
+  border-right: 2px solid #fff;
+
+  h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .5rem;
+
+//    text-align: center;
+    @media screen and(min-width: 680px){
+      font-size: 1rem;
+    }
+  }
+}
+.pipeline-oncology{
+  background: #fff;
+  height: 200px;
 }
