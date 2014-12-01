@@ -8831,7 +8831,17 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
 /* line 184, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .pipeline-oncology {
   background: #fff;
-  height: 200px; }
+  height: 200px;
+  border-right: 1px solid #363636; }
+
+/* line 189, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+.pipeline-program-names {
+  padding-left: 0px; }
+  /* line 193, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  .pipeline-program-names .uk-list li {
+    height: 50px;
+    border-bottom: 1px solid #363636;
+    width: 100%; }
 
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
 footer {

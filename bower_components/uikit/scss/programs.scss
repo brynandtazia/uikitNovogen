@@ -184,4 +184,17 @@
 .pipeline-oncology{
   background: #fff;
   height: 200px;
+  border-right: 1px solid #363636;
+}
+.pipeline-program-names{
+  padding-left: 0px;
+  .uk-list{
+
+    li{
+      height: 50px;
+      border-bottom: 1px solid #363636;
+      width: 100%;
+    }
+  }
+
 }
