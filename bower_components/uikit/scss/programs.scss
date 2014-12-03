@@ -5,6 +5,7 @@
   padding-top: 10px;
   @media screen and (min-width: 680px){
     height: 300px;
+    padding-top: 30px;
   }
   .hero-overlay{
     background: rgba(0, 0, 0, .6);
@@ -23,9 +24,10 @@
     font-size: 1rem;
     padding-top: 5px;
     width: 90%;
+    font-family: $googlefont;
     @media screen and(min-width: 680px){
       font-size: 1.2rem;
-      line-height: 1.6rem;
+      line-height: 1.8rem;
     }
     @media screen and(min-width: 980px){
       font-size: 1.4rem;
@@ -146,7 +148,9 @@
     text-align: center;
     font-size: 1.0rem;
     text-transform: uppercase;
-    padding-top: 20px;
+    padding-top: 30px;
+    font-family: $googlefont;
+    font-weight: 500;
     @media screen and(min-width: 680px){
       font-size: 1.3rem;
       padding-bottom: 20px;
@@ -158,6 +162,8 @@
     margin: auto;
     text-align: center;
     font-size: .9rem;
+    font-family: $googlefont;
+    font-weight: 500;
     @media screen and(min-width: 680px){
       font-size: 1.1rem;
     }
@@ -207,7 +213,7 @@
            display: flex;
            align-items: center;
           background: $aqua;
-          height: 60%;
+          height: 45%;
           width: 80%;
         }
       }
@@ -517,6 +523,7 @@
   height: 400px;
   background: $aqua;
   color: #fff;
+  font-family: $googlefont;
   @media screen and(min-width: 600px){
     height: 300px;
   }
@@ -530,6 +537,6 @@
   color: #fff;
     text-align: center;
     width: 80%;
-
+    font-family: $googlefont;
   }
 }
