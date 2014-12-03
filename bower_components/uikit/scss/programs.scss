@@ -34,7 +34,7 @@
   }
   .hero-divider{
     background:#fff;
-    height: 2px;
+    height: 1px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -43,7 +43,7 @@
 
 .block-one-programs{
   height: 180px;
-  border-right: 2px solid #fff;
+  border-right: 1px solid #fff;
   text-align: center;
   background: $aqua;
   color: #fff;
@@ -164,37 +164,372 @@
   }
 }
 
-.pipeline-headings{
+.pipeline-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  .discovery{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    .discovery-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      color: #fff;
+      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      text-transform: uppercase;
+    }
+    .discovery-body-wrap{
+      border-left: 1px solid $dark;
+      height: 100%;
+      img{
+        height: 100%;
+      }
+      .section-one, .section-two, .section-three,.section-four,.section-five,.section-six,.section-seven,.section-eight,.section-nine,.section-ten{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .cantrixil-progress, .trx-progress, .trilexium-progress,.atm-progress,.stem-progress,.neuro-progress,.muscular-progress,.lysosomal-progress{
+           display: flex;
+           align-items: center;
+        justify-content: center;
+          background: $aqua;
+          height: 60%;
+          width: 100%;
+        }
+         .autoimmune-progress, .regenerative-progress{
+           display: flex;
+           align-items: center;
+          background: $aqua;
+          height: 60%;
+          width: 80%;
+        }
+      }
+
+    }
+  }
+  .preclinical{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    .preclinical-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      color: #fff;
+//      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      text-transform: uppercase;
+    }
+    .preclinical-body-wrap{
+      border-left: 1px solid $dark;
+      height: 100%;
+      img{
+        height: 100%;
+      }
+      .section-one, .section-two, .section-three,.section-four,.section-five,.section-six,.section-seven,.section-eight{
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+        .cantrixil-progress, .trx-progress, .trilexium-progress,.atm-progress{
+           display: flex;
+           align-items: center;
+          background: $aqua;
+          height: 60%;
+          width: 80%;
+        }
+        .stem-progress, .neuro-progress, .muscular-progress,.lysosomal-progress{
+           display: flex;
+           align-items: center;
+          background: $aqua;
+          height: 60%;
+          width: 30%;
+        }
+
+      }
+    }
+  }
+
+  .phase-one{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    .phase-one-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      color: #fff;
+//      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      text-transform: uppercase;
+    }
+    .phase-one-body-wrap{
+      border-left: 1px solid $dark;
+      height: 100%;
+    }
+  }
+  .phase-two{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    .phase-two-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      color: #fff;
+      text-transform: uppercase;
+//      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+    }
+    .phase-two-body-wrap{
+      border-left: 1px solid $dark;
+      height: 100%;;
+    }
+  }
+  .phase-three{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    .phase-three-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      color: #fff;
+//      border-left: 1px solid #fff;
+      border-right: 1px solid #fff;
+      text-transform: uppercase;
+    }
+    .phase-three-body-wrap{
+      border-left: 1px solid $dark;
+      height: 100%;
+    }
+  }
+  .commencement{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    .commencement-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      color: #fff;
+      text-transform: uppercase;
+//      border-left: 1px solid #fff;
+//      border-right: 1px solid #fff;
+    }
+    .commencement-body-wrap{
+      border-left: 1px solid $dark;
+      border-right: 1px solid $dark;
+      height: 100%;
+    }
+  }
+
+  .therapeutic{
+    align-items: center;
+    justify-content: center;
+    background: $aqua;
+    color: #fff;
+    text-align: center;
+    align-content: stretch;
+    flex-grow: 2;
+    text-transform: uppercase;
+    .therapeutic-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      border-right: 1px solid #fff;
+      text-transform: uppercase;
+    }
+    .therapeutic-body-wrap{
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid $dark;
+      .oncology{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 147px;
+        background: #fff;
+        color: #363636;
+        border-bottom: 1px solid #363636;
+      }
+      .degenerative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 147px;
+        background: #fff;
+        color: #363636;
+        border-bottom: 1px solid #363636;
+        text-align: center;
+      }
+      .autoimmune{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        background: #fff;
+        color: #363636;
+        border-bottom: 1px solid #363636;
+        text-align: center;
+      }
+      .regenerative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        background: #fff;
+        color: #363636;
+        text-align: center;
+      }
+    }
+  }
+  .program{
+    flex-direction: column;
+    background: #fff;
+    flex-grow: 2;
+    .program-header{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      background: $aqua;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .program-body-wrap{
+      display: flex;
+      flex-direction: column;
+      border-left: 1px solid $dark;
+      .cantrixil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .trx{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .trilexium{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .atm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .stem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .neurodegenerative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .muscular{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .lysosomal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        border-bottom: 1px solid $dark;
+      }
+      .autoimmune-disease{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        border-bottom: 1px solid $dark;
+      }
+      .regenerative-disease{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+      }
+    }
+  }
+}
+.section-one, .section-two, .section-three, .section-four, .section-five, .section-six, .section-seven, .section-eight{
+  height: 36px;
+  border-bottom: 1px solid $dark;
+}
+.section-nine{
+  height: 50px;
+  border-bottom: 1px solid $dark;
+}
+
+.section-ten{
+  height: 50px;
+}
+
+.after-pipeline{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
   background: $aqua;
   color: #fff;
-  height: 100px;
-  border-right: 2px solid #fff;
-
-  h4{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: .5rem;
-
-//    text-align: center;
-    @media screen and(min-width: 680px){
-      font-size: 1rem;
-    }
+  @media screen and(min-width: 600px){
+    height: 300px;
   }
-}
-.pipeline-oncology{
-  background: #fff;
-  height: 200px;
-  border-right: 1px solid #363636;
-}
-.pipeline-program-names{
-  padding-left: 0px;
-  .uk-list{
-
-    li{
-      height: 50px;
-      border-bottom: 1px solid #363636;
-      width: 100%;
-    }
+  .white-divider{
+    height: 4px;
+    background: #fff;
+    width: 48%;
+    max-width: 400px
   }
+  h3{
+  color: #fff;
+    text-align: center;
+    width: 80%;
 
+  }
 }

@@ -5376,6 +5376,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/sbpDiagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169025,
+		"inputAbbreviatedPath": "\/img\/sbpDiagram.png",
+		"outputAbbreviatedPath": "\/img\/sbpDiagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
