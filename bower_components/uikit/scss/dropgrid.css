@@ -149,4 +149,9 @@
   height: 100%;
   width: 100%; }
 
+/* line 150, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropgrid.scss */
+.overflow {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto; }
+
 /*# sourceMappingURL=dropgrid.css.map */
