@@ -1,0 +1,58 @@
+/*
+Error: Undefined variable: "$aqua".
+        on line 3 of /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about.scss
+
+1: .about-top{
+2:   height: 200px;
+3:   background: $aqua;
+4:   color: #fff;
+5:   font-family: $googlefont;
+6:   text-transform: uppercase;
+7: }
+
+Backtrace:
+/Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about.scss:3
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:404:in `run'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/brynhumphreys/Downloads/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$aqua\".\A         on line 3 of /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about.scss\A \A 1: .about-top{\A 2:   height: 200px;\A 3:   background: $aqua;\A 4:   color: #fff;\A 5:   font-family: $googlefont;\A 6:   text-transform: uppercase;\A 7: }"; }

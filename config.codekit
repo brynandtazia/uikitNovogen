@@ -2,6 +2,28 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
+	"\/assets not for site\/andrew copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129335,
+		"inputAbbreviatedPath": "\/assets not for site\/andrew copy.png",
+		"outputAbbreviatedPath": "\/assets not for site\/andrew copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/andrew.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138653,
+		"inputAbbreviatedPath": "\/assets not for site\/andrew.png",
+		"outputAbbreviatedPath": "\/assets not for site\/andrew.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets not for site\/B5596767682D85D3.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -95,6 +117,94 @@
 		"initialSize": 25897,
 		"inputAbbreviatedPath": "\/assets not for site\/CorporateOverview\/Image_007.png",
 		"outputAbbreviatedPath": "\/assets not for site\/CorporateOverview\/Image_007.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/david copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140228,
+		"inputAbbreviatedPath": "\/assets not for site\/david copy.png",
+		"outputAbbreviatedPath": "\/assets not for site\/david copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/david.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174786,
+		"inputAbbreviatedPath": "\/assets not for site\/david.png",
+		"outputAbbreviatedPath": "\/assets not for site\/david.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/executiveTeam.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194293,
+		"inputAbbreviatedPath": "\/assets not for site\/executiveTeam.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/executiveTeam.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/justine.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163002,
+		"inputAbbreviatedPath": "\/assets not for site\/justine.png",
+		"outputAbbreviatedPath": "\/assets not for site\/justine.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/justineCr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144772,
+		"inputAbbreviatedPath": "\/assets not for site\/justineCr.png",
+		"outputAbbreviatedPath": "\/assets not for site\/justineCr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/stephen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161549,
+		"inputAbbreviatedPath": "\/assets not for site\/stephen.png",
+		"outputAbbreviatedPath": "\/assets not for site\/stephen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/stephenCr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135429,
+		"inputAbbreviatedPath": "\/assets not for site\/stephenCr.png",
+		"outputAbbreviatedPath": "\/assets not for site\/stephenCr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/theBoard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159105,
+		"inputAbbreviatedPath": "\/assets not for site\/theBoard.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/theBoard.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1022,6 +1132,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/uikit\/css\/about.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/uikit\/css\/about.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/uikit\/css\/components\/autocomplete.almost-flat.css": {
 		"fileType": 16,
@@ -4033,6 +4152,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bower_components\/uikit\/scss\/about.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/uikit\/scss\/about.scss",
+		"outputAbbreviatedPath": "\/bower_components\/uikit\/css\/about.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/bower_components\/uikit\/scss\/components\/autocomplete.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -5079,6 +5214,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/executive.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/executive.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/img\/68079FE271EA1B4A.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5097,6 +5241,17 @@
 		"initialSize": 3708,
 		"inputAbbreviatedPath": "\/img\/A8E716BDB0906AC.png",
 		"outputAbbreviatedPath": "\/img\/A8E716BDB0906AC.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/barcode.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58225,
+		"inputAbbreviatedPath": "\/img\/barcode.png",
+		"outputAbbreviatedPath": "\/img\/barcode.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5376,6 +5531,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/gKelly.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147812,
+		"inputAbbreviatedPath": "\/img\/gKelly.png",
+		"outputAbbreviatedPath": "\/img\/gKelly.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gKellyCrop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82527,
+		"inputAbbreviatedPath": "\/img\/gKellyCrop.png",
+		"outputAbbreviatedPath": "\/img\/gKellyCrop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jpOconnor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105149,
+		"inputAbbreviatedPath": "\/img\/jpOconnor.png",
+		"outputAbbreviatedPath": "\/img\/jpOconnor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pGunning.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201810,
+		"inputAbbreviatedPath": "\/img\/pGunning.png",
+		"outputAbbreviatedPath": "\/img\/pGunning.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sbpDiagram.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5383,6 +5582,17 @@
 		"initialSize": 169025,
 		"inputAbbreviatedPath": "\/img\/sbpDiagram.png",
 		"outputAbbreviatedPath": "\/img\/sbpDiagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sCoffey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103810,
+		"inputAbbreviatedPath": "\/img\/sCoffey.png",
+		"outputAbbreviatedPath": "\/img\/sCoffey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5421,6 +5631,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/programs.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/programsOld.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/programsOld.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/theboard.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/theboard.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
