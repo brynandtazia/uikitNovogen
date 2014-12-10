@@ -22,6 +22,13 @@
       margin-top: -35px;
     }
   }
+  .bm-coffey{
+    display: inline;
+    img{
+      margin-top: -35px;
+      height: 180px;
+    }
+  }
 
   .bm-topline-wrap{
     display: inline-block;
@@ -57,7 +64,10 @@
     width: 200px;
     background: #ebebeb;
     float: right;
-    margin: 20px 20px 60px 20px;;
+    margin: 20px 20px 60px 20px;
+    i{
+      font-size: 2.4rem;
+    }
   }
   .bm-bottom-line{
     height: 2px;
@@ -73,6 +83,7 @@
 .bm-text{
   padding-left: 22px;
   padding-top: 16px;
+  padding-bottom: 20px;
   max-width: 90%;
 }
 .double-lines{
@@ -86,59 +97,46 @@
 }
 
 
-.board-member-right{
-  margin-right: 20px;
-  margin-left: 20px;
-  .bm-right{
-    padding-top: 10px;
-    @media screen and(min-width: 600px){
-      float: right;
-      padding-top: 0;
-    }
-//    display: block;
-//    float: right;
-//    clear: both;
-  }
-  img{
-    height: 170px;
-    display: inline-block;
-    margin-top: -20px;
-  }
-.bm-topline-right-wrap{
-  display: inline-block;
-  @media screen and (min-width: 600px){
-        position: absolute;
-    right: 200px;
+.boardmember-right{
+  background: #fffbfb;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
 
-      }
-  .bm-right-topline{
-      height: 2px;
-      width: 100%;
-      margin-left: 4px;
-      margin-top: 0;
-    margin-top: -2px;
-      background: $aqua;
-      @media screen and (min-width: 600px){
-        margin-top: 20px;
-        margin-right: -40px;
-        width: 100%;
-      }
-     @media screen and (min-width: 900px){
-        width: 500px;
+  .boardmember-image-container{
+    margin-bottom: 0px;
+    margin-top: 4px;
 
-      }
+  }
+  .boardmember-box{
+    height: 200px;
+    width: 200px;
+    background: #ebebeb;
+    i{
+      font-size: 2.4rem;
     }
-  .bm-right-heading{
-      //      background: brown;
-//    height: 88px;
-//    border-bottom: 2px solid $aqua;
-    width: 100%;
-    @media screen and (min-width: 600px){
-    height: 128px;
-      border-bottom: 2px solid $aqua;
-      padding-right: 40%;
+  }
+  .boardmember-img{
+    height: 200px;
+    margin: 0;
+    margin-right: 20px;
+    border-bottom: 2px solid $aqua;
+  }
+  .boardmember-topline{
+    height: 2px;
+    background: $aqua;
+  }
+  .boardmember-heading{
+//    background: green;
+    flex-grow: 1;
+    height: 140px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-top: 2px solid $aqua;
+    border-bottom: 2px solid $aqua;
+    @media screen and(min-width: 767px){
     }
-      h2{
+    h2{
         font-family: $googlefont;
         text-transform:uppercase;
         color: $dark;
@@ -148,77 +146,22 @@
         text-transform:uppercase;
         color: $dark;
       }
-    }
-}
- .bm-right-bottom-line{
-    height: 2px;
-    width: 100%;
-    background: $aqua;
-   position: relative;
-   top: 80px;
-   @media screen and (min-width: 600px){
-    position: inherit;
-    }
+
+
   }
 
-.bm-right-box{
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  background: #ebebeb;
-  float: left;
-  margin: 20px 20px 20px 20px;
-}
-
-}
-.bm-right-text{
-  padding-top: 20px;
-  width: 90%;
-  @media screen and(min-width: 600px){
-    width: 95%;
-    padding-top: 180px;
-    margin-left: auto;
-    padding-right: 10px;
-    text-align: justify;
-  }
-
-
-}
-
-.boardmember-right{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.boardmember-image-container{
-  background: pink;
-  padding-left: 0px;
-  margin-left: 0;
-  width: 207px;
-  height: 164px;
-
-}
-.boardmember-box{
-  height: 180px;
-  background: #ebebeb;
-  width: 19%;
-  display: inline-block;
-}
-.boardmember-img{
-  padding-left: 0px;
-  margin-left: 0px;
-}
-.boardmember-topline{
-  width: 80%;
-  height: 2px;
-  background: $aqua;
-  margin-top: 20px;
 }
 .boardmember-bottomline{
-  display: flex;
   height: 2px;
   background: $aqua;
-  width: 60%;
-
+  margin-right: 20px;
+  margin-left: 250px;
 }
+    .boardmember-text{
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin: auto;
+      max-width: 90%;
+    }
