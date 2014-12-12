@@ -2,17 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
-	"\/assets not for site\/andrew copy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 129335,
-		"inputAbbreviatedPath": "\/assets not for site\/andrew copy.png",
-		"outputAbbreviatedPath": "\/assets not for site\/andrew copy.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets not for site\/andrew.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -31,6 +20,17 @@
 		"initialSize": 5168,
 		"inputAbbreviatedPath": "\/assets not for site\/B5596767682D85D3.png",
 		"outputAbbreviatedPath": "\/assets not for site\/B5596767682D85D3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/cb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116786,
+		"inputAbbreviatedPath": "\/assets not for site\/cb.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/cb.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -121,17 +121,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets not for site\/david copy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 140228,
-		"inputAbbreviatedPath": "\/assets not for site\/david copy.png",
-		"outputAbbreviatedPath": "\/assets not for site\/david copy.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets not for site\/david.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -165,13 +154,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets not for site\/justineCr.png": {
-		"fileType": 32768,
+	"\/assets not for site\/lionel.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 144772,
-		"inputAbbreviatedPath": "\/assets not for site\/justineCr.png",
-		"outputAbbreviatedPath": "\/assets not for site\/justineCr.png",
+		"initialSize": 51732,
+		"inputAbbreviatedPath": "\/assets not for site\/lionel.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/lionel.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/Stephen Palmer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.7172e+06,
+		"inputAbbreviatedPath": "\/assets not for site\/Stephen Palmer.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/Stephen Palmer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -208,6 +208,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/blog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
@@ -4168,6 +4177,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/bower_components\/uikit\/scss\/blog.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/uikit\/scss\/blog.scss",
+		"outputAbbreviatedPath": "\/bower_components\/uikit\/css\/blog.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/bower_components\/uikit\/scss\/components\/autocomplete.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -5214,15 +5239,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/executive.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/executive.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/img\/68079FE271EA1B4A.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5241,6 +5257,17 @@
 		"initialSize": 3708,
 		"inputAbbreviatedPath": "\/img\/A8E716BDB0906AC.png",
 		"outputAbbreviatedPath": "\/img\/A8E716BDB0906AC.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ah.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129335,
+		"inputAbbreviatedPath": "\/img\/ah.png",
+		"outputAbbreviatedPath": "\/img\/ah.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5267,6 +5294,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/cb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35263,
+		"inputAbbreviatedPath": "\/img\/cb.png",
+		"outputAbbreviatedPath": "\/img\/cb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/cell4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5285,6 +5323,17 @@
 		"initialSize": 1.77912e+06,
 		"inputAbbreviatedPath": "\/img\/cell7.jpg",
 		"outputAbbreviatedPath": "\/img\/cell7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/db.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140228,
+		"inputAbbreviatedPath": "\/img\/db.png",
+		"outputAbbreviatedPath": "\/img\/db.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5531,6 +5580,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/gk.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14585,
+		"inputAbbreviatedPath": "\/img\/gk.png",
+		"outputAbbreviatedPath": "\/img\/gk.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/gKelly.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5553,6 +5613,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/gkLg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86317,
+		"inputAbbreviatedPath": "\/img\/gkLg.png",
+		"outputAbbreviatedPath": "\/img\/gkLg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/jpOconnor.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5560,6 +5631,28 @@
 		"initialSize": 105149,
 		"inputAbbreviatedPath": "\/img\/jpOconnor.png",
 		"outputAbbreviatedPath": "\/img\/jpOconnor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/js.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144772,
+		"inputAbbreviatedPath": "\/img\/js.png",
+		"outputAbbreviatedPath": "\/img\/js.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29869,
+		"inputAbbreviatedPath": "\/img\/lm.png",
+		"outputAbbreviatedPath": "\/img\/lm.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5597,6 +5690,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/spalmer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38644,
+		"inputAbbreviatedPath": "\/img\/spalmer.png",
+		"outputAbbreviatedPath": "\/img\/spalmer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5622,6 +5726,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/investors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/management.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/management.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

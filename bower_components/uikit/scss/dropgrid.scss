@@ -94,8 +94,34 @@
   //  background: $aqua;
   border-right: 1px solid rgba(0, 0, 0, .3);
   border-bottom: 1px solid rgba(0, 0, 0, .3);
-  padding-left: 45px;
-  padding-top: 20px;
+//  padding-left: 45px;
+//  padding-top: 20px;
+  padding-left: 0px;
+  .split-grid-top{
+    height: 50%;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    h2{
+      font-size: 1.5rem;
+      padding-left: 45px;
+    }
+    img{
+      height: 34px;
+      padding-top: 10px;
+      padding-left: 45px;
+    }
+  }
+  .split-grid-bottom{
+    height: 50%;
+    h2{
+      font-size: 1.5rem;
+      padding-left: 45px;
+    }
+    img{
+      height: 34px;
+      padding-top: 10px;
+      padding-left: 45px;
+    }
+  }
   a{
     color: #667;
     text-decoration: none;
@@ -142,7 +168,6 @@
   }
 
 }
-
 .pdf{
   height: 100%;
   width: 100%;
