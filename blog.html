@@ -50,14 +50,14 @@
 
       </div>
       <nav class="uk-navbar uk-navbar-attached" data-uk-sticky>
-        <a class="logo uk-navbar-brand" href="index.html"><img src="img/novogen-white.svg" alt="Novogen Logo with white writing on dark background"></a>
+        <a class="logo uk-navbar-brand" href="index.html"><img src="img/novogen-logo.svg" alt="Novogen Logo with white writing on dark background"></a>
         <ul class="uk-navbar-nav uk-navbar-flip uk-hidden-small">
-          <li class="menu-item" data-uk-dropdown><a href="blogalt.html">About</a>
-            <div class="uk-dropdown uk-dropdown-navbar">
+          <li class="menu-item" data-uk-dropdown><a href="about.html">About</a>
+            <div class="long-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
                 <li><a href="#">History</a></li>
-                <li><a href="#">Vision</a></li>
-                <li><a href="#">CEO</a></li>
+                <li><a href="#">News</a></li>
+                <!--                <li><a href="#">CEO</a></li>-->
                 <li><a href="theboard.html">The Board</a></li>
                 <li><a href="management.html">Management Team</a></li>
               </ul>
@@ -67,10 +67,10 @@
 
             <div class="longer-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
-                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
-                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
-                <li><a href="">CANTX PROGRAM</a></li>
-                <li><a href="">PROJECT JACOB HOPE</a></li>
+                <li><a href="#sbp-box" data-uk-modal>SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
+                <li><a href="#anti-box" data-uk-modal>ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
+                <li><a href="#cantx-box" data-uk-modal>CANTX PROGRAM</a></li>
+                <li><a href="#jacob-box" data-uk-modal>PROJECT JACOB HOPE</a></li>
               </ul>
             </div>
 
@@ -80,10 +80,13 @@
               <ul class="uk-nav uk-nav-navbar">
                 <li><a href="">LATEST PRESENTATIONS</a></li>
                 <li><a href="">MEDIA</a></li>
-                <li><a href="">NEWSLETTERS</a></li>
+                <li><a href="">NEWS</a></li>
                 <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li>
                 <li><a href="">CORPORATE GOVERNANCE</a></li>
                 <li><a href="">SHARE PRICE</a></li>
+                <li><a href="">SEC FILINGS</a></li>
+                <li><a href="">ASX FILINGS</a></li>
+                <li><a href="">ANNUAL REPORTS</a></li>
               </ul>
             </div>
           </li>
@@ -93,7 +96,6 @@
       </nav>
       <div id="mobi-nav" class="uk-offcanvas">
 
-
         <div class="uk-offcanvas-bar">
 
           <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
@@ -101,56 +103,62 @@
             <li class="uk-active"><a href="index.html">HOME</a></li>
 
             <li class="uk-parent">
-              <a href="about.html">ABOUT</a>
-              <ul class="uk-nav-sub">
-                <li><a href="#">HISTORY</a></li>
-                <li><a href="#">VISION</a></li>
-                <li><a href="#">CEO</a></li>
-                <li><a href="theboard.html">THE BOARD</a></li>
-                <li><a href="management.html">MANAGEMENT TEAM</a></li>
+              <a href="#">ABOUT</a>
+              <ul class="uk-nav uk-subnav">
+               <li><a href="about.html">ABOUT PAGE</a></li><br>
+                <li><a href="#">HISTORY</a></li><br>
+                <!--                <li><a href="#">VISION</a></li>-->
+                <!--                <li><a href="#">CEO</a></li>-->
+                <li><a href="theboard.html">THE BOARD</a></li><br>
+                <li><a href="management.html">MANAGEMENT TEAM</a></li><br>
               </ul>
             </li>
 
             <li class="uk-parent">
-              <a href="progams.html">PIPELINE</a>
-              <ul class="uk-nav-sub">
-                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
-                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
-                <li><a href="">CANTX PROGRAM</a></li>
-                <li><a href="">PROJECT JACOB HOPE</a></li>
+              <a href="#">PIPELINE</a>
+              <ul class="uk-nav uk-subnav">
+               <li><a href="">PIPELINE PAGE</a></li><br>
+                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li><br>
+                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li><br>
+                <li><a href="">CANTX PROGRAM</a></li><br>
+                <li><a href="">PROJECT JACOB HOPE</a></li><br>
               </ul>
             </li>
             <li class="uk-parent">
-              <a href="investors.html">INVESTORS</a>
-              <ul class="uk-nav-sub">
-                <li><a href="">LATEST PRESENTATIONS</a></li>
-                <li><a href="">MEDIA</a></li>
-                <li><a href="">NEWSLETTERS</a></li>
-                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li>
-                <li><a href="">CORPORATE GOVERNANCE</a></li>
-                <li><a href="">SHARE PRICE</a>
-                  <ul>
-                    <li><a href="" target="_blank">ASX</a></li>
-                    <li><a href="" target="_blank">Nasdaq</a></li>
-                  </ul>
+              <a href="#">INVESTORS</a>
+              <ul class="uk-nav uk-subnav">
+               <li><a href="">INVESTORS PAGE</a></li><br>
+                <li><a href="">LATEST PRESENTATIONS</a></li><br>
+                <li><a href="">MEDIA</a></li><br>
+                <li><a href="">NEWSLETTERS</a></li><br>
+                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li><br>
+                <li><a href="">CORPORATE GOVERNANCE</a></li><br>
+                <li><a href="">SHARE PRICE</a></li><br>
+                <li><a href="">SEC FILINGS</a></li><br>
+                <li><a href="">ASX FILINGS</a></li><br>
+                <li><a href="">ANNUAL REPORTS</a></li>
+                <ul>
+                  <li><a href="" target="_blank">ASX</a></li>
+                  <li><a href="" target="_blank">Nasdaq</a></li>
+                </ul>
                 </li>
-              </ul>
-            </li>
+          </ul>
+          </li>
 
-            <li class="uk-nav-header">Connect with us</li>
-            <li><a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a></li>
-            <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a></li>
-            <li><a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li>
-            <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a></li>
-            <!--
+        <li class="uk-nav-header">Connect with us</li>
+        <li><a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a></li>
+        <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a></li>
+        <li><a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a></li>
+        <!--
 <li class="uk-nav-divider"></li>
 <li><a href=""><i class="uk-icon-rss"></i> Item</a></li>
 -->
-          </ul>
+        </ul>
 
-        </div>
+    </div>
 
-      </div>
+    </div>
       <body>
 
         <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
@@ -189,11 +197,8 @@
               <p>
                 <a class="uk-button uk-button-primary" data-uk-toggle="{target:'#blog-24november'}">24 November 2014</a>
               </p>
-              <p>
-                <a class="uk-button uk-button-primary" data-uk-toggle="{target:'#blog-18november'}">18 November 2014</a>
-              </p>
 
-              <article class="uk-article uk-hidden" id="blog-24november">
+<article class="uk-article uk-hidden" id="blog-24november">
 
                 <h1 class="uk-article-title">
                   <a href="layouts_post.html">CEO Update - 24 November 2014</a>
@@ -229,12 +234,14 @@
                 <p>I believe that these 4 drugs represent the future of chemotherapy.</p>
                 <p>We’re getting on with the job with a re-energised Board and highly committed staff.  We have new strategies for both our R&amp;D programs and our continuing thirst for capital as we move 4 highly promising drugs into the clinic.</p>
 
-                <p>
-                  <a class="uk-button uk-button-primary" href="layouts_post.html">Continue Reading</a>
-                  <a class="uk-button" href="layouts_post.html">4 Comments</a>
-                </p>
 
               </article>
+
+              <p>
+                <a class="uk-button uk-button-primary" data-uk-toggle="{target:'#blog-18november'}">18 November 2014</a>
+              </p>
+
+
               <article class="uk-article uk-hidden" id="blog-18november">
 
                 <h1 class="uk-article-title">
@@ -274,47 +281,22 @@
               <p>Novogen is a public, Australian drug-development company whose shares trade on both the Australian Securities Exchange (‘NRT’) and NASDAQ (‘NVGN’). The Novogen Group includes a New Haven CT – based joint venture company, CanTx Inc, with Yale University.<br><br>
                 Novogen has two main drug technology platforms: super-benzopyrans (SBPs) and anti-tropomyosins (ATMs). SBP compounds have been created to kill the full range of cells within a tumor, but particularly the cancer stem cells. The ATM compounds target the microfilament component of the cancer cell and when used in conjunction with standard anti-microtubular drugs, result in comprehensive and fatal destruction of the cancer cell’s cytoskeleton. Ovarian cancer, colorectal cancer, malignant ascites, prostate cancer, neural cancers (glioblastoma, neuroblastoma) and melanoma are the key clinical indications being pursued, with the ultimate objective of employing both technologies as a unified approach to first-line therapy.</p>
 
-
-
               </article>
 
-            <ul class="uk-pagination">
-              <li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
-              <li class="uk-active"><span>1</span></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><span>...</span></li>
-              <li><a href="#">20</a></li>
-              <li><a href="#"><i class="uk-icon-angle-double-right"></i></a></li>
-            </ul>
 
           </div>
 
           <div class="uk-width-medium-1-4">
             <div class="uk-panel uk-panel-box uk-text-center">
-              <img class="uk-border-circle" width="120" height="120" src="img/gkLg.png" alt="">
+              <img  width="120" height="120" src="img/gkLg.png" alt="">
               <h3>Dr Graham Kelly</h3>
               <p>CEO Novogen</p>
             </div>
-            <div class="uk-panel">
-              <h3 class="uk-panel-title">Archives</h3>
-              <ul class="uk-list uk-list-line">
-                <li><a href="#">January 2014</a></li>
-                <li><a href="#">December 2013</a></li>
-                <li><a href="#">November 2013</a></li>
-                <li><a href="#">October 2013</a></li>
-                <li><a href="#">September 2013</a></li>
-              </ul>
+            <div class="side-quote uk-panel">
+              <p>We are about half-way through a 10-month task list for making Cantrixil ‘clinic ready’.</p>
+
             </div>
-            <div class="uk-panel">
-              <h3 class="uk-panel-title">Social Links</h3>
-              <ul class="uk-list">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-              </ul>
-            </div>
+
           </div>
         </div>
 
@@ -370,6 +352,30 @@
 
 </form>
 -->
+       <div id="sbp-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+        <a class="uk-modal-close uk-close"></a>
+        <iframe src="pdf/Publication_SBPandATM.pdf" class="pdf"></iframe>
+      </div>
+    </div>
+    <div id="anti-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+        <a class="uk-modal-close uk-close"></a>
+        <iframe src="pdf/atm.pdf" class="pdf"></iframe>
+      </div>
+    </div>
+    <div id="cantx-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+        <a class="uk-modal-close uk-close"></a>
+        <iframe src="pdf/cantrixil.pdf" class="pdf"></iframe>
+      </div>
+    </div>
+    <div id="jacob-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+        <a class="uk-modal-close uk-close"></a>
+        <iframe src="pdf/degenerativeDiseases.pdf" class="pdf"></iframe>
+      </div>
+    </div>
 
             <form class="uk-form" name="catwebformform83042" method="post" onsubmit="return checkWholeForm83042(this)" enctype="multipart/form-data" action="/FormProcessv2.aspx?WebFormID=84800&OID={module_oid}&OTYPE={module_otype}&EID={module_eid}&CID={module_cid}">
               <fieldset data-uk-margin> <legend> Sign up to stay informed</legend>
@@ -393,3 +399,4 @@
         </div>
       </footer>
       </body>
+</html>

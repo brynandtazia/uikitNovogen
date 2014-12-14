@@ -1,21 +1,23 @@
 .uk-navbar{
-  background: $dark;
+  background: #fff;
   height: 60px;
   .uk-navbar-nav{
     margin-top: 16px;
         padding-right: 3%;
     text-transform: uppercase;
-    color: #fff;
+    color: $dark;
     li{
-      background: #5f5f5f;
-            margin-right: 16px;
+      background: #fff;
+      margin-right: 16px;
+      color: $dark
     }
     li > a{
       height: 26px;
       line-height: 23px;
-      border: 2px solid #fff;
+      border: 2px solid $dark;
       font-family: $googlefont;
       font-weight: 500;
+      color: $dark;
     }
   }
 
@@ -23,10 +25,11 @@
     background: rgba(0, 0, 0, 0);
     ul{
       background: rgba(0, 0, 0, .1);
+      padding-left: 15px;
       li{
         margin-bottom: 10px;
         a{
-        color: #fff;
+        color: $dark;
           &:hover{
             background: #fff;
             color: $dark;
@@ -47,7 +50,7 @@
 
 .social-bar{
   height: 30px;
-  background: #fff;
+  background: $dark;
   @media screen and(min-width: 460px){
       height: 36px;
     }
@@ -98,10 +101,18 @@
 .uk-navbar-toggle{
   margin-top: 10px;
   margin-right: 3%;
-  color: #fff;
+  color: $dark;
 }
 #mobi-nav{
   color: #fff;
+  .uk-subnav{
+  a{
+    color: #fff;
+    &:hover{
+    color: $aqua;
+    }
+  }
+  }
 }
 
 .uk-button-primary:hover{

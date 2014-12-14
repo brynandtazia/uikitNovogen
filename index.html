@@ -49,14 +49,14 @@
 
       </div>
       <nav class="uk-navbar uk-navbar-attached" data-uk-sticky>
-        <a class="logo uk-navbar-brand" href="index.html"><img src="img/novogen-white.svg" alt="Novogen Logo with white writing on dark background"></a>
+        <a class="logo uk-navbar-brand" href="index.html"><img src="img/novogen-logo.svg" alt="Novogen Logo with white writing on dark background"></a>
         <ul class="uk-navbar-nav uk-navbar-flip uk-hidden-small">
           <li class="menu-item" data-uk-dropdown><a href="about.html">About</a>
-            <div class="uk-dropdown uk-dropdown-navbar">
+            <div class="long-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
                 <li><a href="#">History</a></li>
                 <li><a href="#">News</a></li>
-<!--                <li><a href="#">CEO</a></li>-->
+                <!--                <li><a href="#">CEO</a></li>-->
                 <li><a href="theboard.html">The Board</a></li>
                 <li><a href="management.html">Management Team</a></li>
               </ul>
@@ -66,10 +66,10 @@
 
             <div class="longer-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
-                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
-                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
-                <li><a href="">CANTX PROGRAM</a></li>
-                <li><a href="">PROJECT JACOB HOPE</a></li>
+                <li><a href="#sbp-box" data-uk-modal>SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
+                <li><a href="#anti-box" data-uk-modal>ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
+                <li><a href="#cantx-box" data-uk-modal>CANTX PROGRAM</a></li>
+                <li><a href="#jacob-box" data-uk-modal>PROJECT JACOB HOPE</a></li>
               </ul>
             </div>
 
@@ -84,7 +84,8 @@
                 <li><a href="">CORPORATE GOVERNANCE</a></li>
                 <li><a href="">SHARE PRICE</a></li>
                 <li><a href="">SEC FILINGS</a></li>
-                <li><a href="">ASX ANNOUNCEMENTS</a></li>
+                <li><a href="">ASX FILINGS</a></li>
+                <li><a href="">ANNUAL REPORTS</a></li>
               </ul>
             </div>
           </li>
@@ -94,7 +95,6 @@
       </nav>
       <div id="mobi-nav" class="uk-offcanvas">
 
-
         <div class="uk-offcanvas-bar">
 
           <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
@@ -102,270 +102,302 @@
             <li class="uk-active"><a href="index.html">HOME</a></li>
 
             <li class="uk-parent">
-              <a href="about.html">ABOUT</a>
-              <ul class="uk-nav-sub">
-                <li><a href="#">HISTORY</a></li>
-<!--                <li><a href="#">VISION</a></li>-->
-<!--                <li><a href="#">CEO</a></li>-->
-                <li><a href="theboard.html">THE BOARD</a></li>
-                <li><a href="management.html">MANAGEMENT TEAM</a></li>
+              <a href="#">ABOUT</a>
+              <ul class="uk-nav uk-subnav">
+               <li><a href="about.html">ABOUT PAGE</a></li><br>
+                <li><a href="#">HISTORY</a></li><br>
+                <!--                <li><a href="#">VISION</a></li>-->
+                <!--                <li><a href="#">CEO</a></li>-->
+                <li><a href="theboard.html">THE BOARD</a></li><br>
+                <li><a href="management.html">MANAGEMENT TEAM</a></li><br>
               </ul>
             </li>
 
             <li class="uk-parent">
-              <a href="progams.html">PIPELINE</a>
-              <ul class="uk-nav-sub">
-                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
-                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
-                <li><a href="">CANTX PROGRAM</a></li>
-                <li><a href="">PROJECT JACOB HOPE</a></li>
+              <a href="#">PIPELINE</a>
+              <ul class="uk-nav uk-subnav">
+               <li><a href="">PIPELINE PAGE</a></li><br>
+                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li><br>
+                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li><br>
+                <li><a href="">CANTX PROGRAM</a></li><br>
+                <li><a href="">PROJECT JACOB HOPE</a></li><br>
               </ul>
             </li>
             <li class="uk-parent">
-              <a href="investors.html">INVESTORS</a>
-              <ul class="uk-nav-sub">
-                <li><a href="">LATEST PRESENTATIONS</a></li>
-                <li><a href="">MEDIA</a></li>
-                <li><a href="">NEWSLETTERS</a></li>
-                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li>
-                <li><a href="">CORPORATE GOVERNANCE</a></li>
-                <li><a href="">SHARE PRICE</a>
-                  <ul>
-                    <li><a href="" target="_blank">ASX</a></li>
-                    <li><a href="" target="_blank">Nasdaq</a></li>
-                  </ul>
+              <a href="#">INVESTORS</a>
+              <ul class="uk-nav uk-subnav">
+               <li><a href="">INVESTORS PAGE</a></li><br>
+                <li><a href="">LATEST PRESENTATIONS</a></li><br>
+                <li><a href="">MEDIA</a></li><br>
+                <li><a href="">NEWSLETTERS</a></li><br>
+                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li><br>
+                <li><a href="">CORPORATE GOVERNANCE</a></li><br>
+                <li><a href="">SHARE PRICE</a></li><br>
+                <li><a href="">SEC FILINGS</a></li><br>
+                <li><a href="">ASX FILINGS</a></li><br>
+                <li><a href="">ANNUAL REPORTS</a></li>
+                <ul>
+                  <li><a href="" target="_blank">ASX</a></li>
+                  <li><a href="" target="_blank">Nasdaq</a></li>
+                </ul>
                 </li>
-              </ul>
-            </li>
+          </ul>
+          </li>
 
-            <li class="uk-nav-header">Connect with us</li>
-            <li><a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a></li>
-            <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a></li>
-            <li><a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li>
-            <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a></li>
-            <!--
+        <li class="uk-nav-header">Connect with us</li>
+        <li><a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a></li>
+        <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a></li>
+        <li><a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a></li>
+        <!--
 <li class="uk-nav-divider"></li>
 <li><a href=""><i class="uk-icon-rss"></i> Item</a></li>
 -->
-          </ul>
+        </ul>
 
+    </div>
+
+    </div>
+
+
+  <div class="slideshow-wrap" data-uk-slideshow="{kenburns:true, autoplay:true,autoplayInterval: 7000,}">
+    <ul class="uk-slideshow">
+      <li>
+        <img  class="uk-cover-background" src="img/cell7.jpg" width="800" height="400" alt="">
+        <div class="uk-caption uk-caption-panel uk-animation-slide-right  uk-text-center">
+          <div class="caption-text">
+            <h3>TWO TECHNOLOGIES<br>
+              ONE PURPOSE</h3>
+            <h4>
+              To convert cancer and other degenerative diseases into non-lethal manageable conditions</h4>
+            <!--              <button class="uk-button uk-button-primary">Button</button>-->
+          </div>
         </div>
-
-      </div>
-
-
-    <div class="slideshow-wrap" data-uk-slideshow="{kenburns:true, autoplay:true,autoplayInterval: 7000,}">
-      <ul class="uk-slideshow">
-        <li>
-          <img  class="uk-cover-background" src="img/cell7.jpg" width="800" height="400" alt="">
-          <div class="uk-caption uk-caption-panel uk-animation-slide-right  uk-text-center">
-            <div class="caption-text">
-              <h3>TWO TECHNOLOGIES<br>
-                ONE PURPOSE</h3>
-              <h4>
-                To convert cancer and other degenerative diseases into non-lethal manageable conditions</h4>
-              <!--              <button class="uk-button uk-button-primary">Button</button>-->
-            </div>
-          </div>
-        </li>
-        <li>
-          <img class="uk-cover-background" src="img/cell4.jpg" width="800" height="400" alt="">
-          <div class="uk-caption uk-caption-panel uk-animation-slide-right uk-text-center">
-            <div class="caption-text">
-              <h3>Novogen Identifies Lead ATM Drug Canditate</h3>
-              <h4>Novogen announces that it has identified its lead anti-tropomyosin (ATM) drug candidate.</h4>
-              <a href="pdf/InvestorFactSheet.pdf" target="_blank" class="uk-button uk-button-primary">Read More</a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img class="uk-cover-background" src="img/DNA1.jpg" width="800" height="400" alt="">
-          <div class="uk-caption uk-caption-panel uk-animation-slide-right uk-text-center">
-            <div class="caption-text">
-              <h3>Invest in Novogen</h3>
-              <h4>Download our Investor Factsheet and partner with us</h4>
-              <a href="pdf/InvestorFactSheet.pdf" target="_blank" class="uk-button uk-button-primary">Download</a>
-            </div>
-          </div>
-        </li>
-
-      </ul>
-    </div>
-
-    <div class="slideshow-wrap-two" data-uk-slideshow="{kenburns:true, autoplay:true,autoplayInterval: 9000,}">
-      <ul class="uk-slideshow">
-        <li>
-          <!--          <img src=""  alt="aqua color background">-->
-          <div class="uk-caption uk-caption-panel uk-animation-fade uk-text-center">
-            <div class="quotes caption-text">
-                           <h3><i class="uk-icon-quote-left uk-icon-small align-left"></i>Our objective is to build a global biotechnology-pharmaceutical business around two first-in-class drug technology platforms<i class="uk-icon-quote-right uk-icon-small"></i></h3>
-<!--              <h3><i class="uk-icon-quote-left uk-icon-small align-left"></i>Our objective is to build a global biotechnology-pharmaceutical business around two first-in-class drug technology platforms<i class="uk-icon-quote-right uk-icon-small"></i></h3>-->
-              <p><em>Dr Graham Kelly</em> CEO</p>
-              <!--              <button class="uk-button uk-button-primary">Button</button>-->
-            </div>
-          </div>
-        </li>
-        <li>
-          <!--          <img src=""  alt="aqua color background">-->
-          <div class="uk-caption uk-caption-panel uk-animation-fade uk-text-center">
-            <div class="quotes caption-text">
-              <h3><i class="uk-icon-quote-left uk-icon-small align-left"></i>Novogen uses breakthrough technology to create drugs that kill aberrant stem cells.<i class="uk-icon-quote-right uk-icon-small"></i></h3>
-              <p><em>Dr Graham Kelly</em> CEO</p>
-              <!--              <button class="uk-button uk-button-primary">Button</button>-->
-            </div>
-          </div>
-        </li>
-        <li>
-          <!--          <img src=""  alt="aqua color background">-->
-          <div class="uk-caption uk-caption-panel uk-animation-fade uk-text-center">
-            <div class="quotes caption-text">
-              <h3>Novogen's latest announcement</h3>
-              <p>Click to view our latest announcement</p>
-              <a href="#slide-two-modal-one" class="uk-button uk-button-secondary" data-uk-modal >Open</a>
-              <!--              <button class="uk-button uk-button-primary">Button</button>-->
-            </div>
-          </div>
-        </li>
-
-      </ul>
-    </div>
-
-    <ul class="uk-grid uk-grid-preserve">
-      <li class="block-one uk-width-medium-1-3">
-        <a href="#first-box" data-uk-modal><img src="img/neurons-green.svg" alt="icon of neurons">
-          <h2>Company Overview</h2><p>Click to read our overview</p>
-        </a>
       </li>
-      <li class="block-two uk-width-medium-2-3">
-        <a href="#second-box" data-uk-modal><img src="img/video-green.svg" alt="icon of a play button">
-          <h2>Video Presentation</h2><p>Novogen and Cantrixil presentation - Interview with Dr. Graham Kelly</p>
-        </a></li>
+      <li>
+        <img class="uk-cover-background" src="img/cell4.jpg" width="800" height="400" alt="">
+        <div class="uk-caption uk-caption-panel uk-animation-slide-right uk-text-center">
+          <div class="caption-text">
+            <h3>Novogen Identifies Lead ATM Drug Canditate</h3>
+            <h4>Novogen announces that it has identified its lead anti-tropomyosin (ATM) drug candidate.</h4>
+            <a href="pdf/InvestorFactSheet.pdf" target="_blank" class="uk-button uk-button-primary">Read More</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <img class="uk-cover-background" src="img/DNA1.jpg" width="800" height="400" alt="">
+        <div class="uk-caption uk-caption-panel uk-animation-slide-right uk-text-center">
+          <div class="caption-text">
+            <h3>Invest in Novogen</h3>
+            <h4>Download our Investor Factsheet and partner with us</h4>
+            <a href="pdf/InvestorFactSheet.pdf" target="_blank" class="uk-button uk-button-primary">Download</a>
+          </div>
+        </div>
+      </li>
+
     </ul>
-    <ul class="uk-grid uk-grid-preserve"  style="margin-top: 0">
-      <li class="block-three uk-width-medium-2-6">
-        <img src="img/stopwatch-green.svg" alt="icon of a stopwatch">
-        <h2>CEO Corner</h2><p>Read our CEO's blog posts </p>
+  </div>
+
+  <div class="slideshow-wrap-two" data-uk-slideshow="{kenburns:true, autoplay:true,autoplayInterval: 9000,}">
+    <ul class="uk-slideshow">
+      <li>
+        <!--          <img src=""  alt="aqua color background">-->
+        <div class="uk-caption uk-caption-panel uk-animation-fade uk-text-center">
+          <div class="quotes caption-text">
+            <h3><i class="uk-icon-quote-left uk-icon-small align-left"></i>Our objective is to build a global biotechnology-pharmaceutical business around two first-in-class drug technology platforms<i class="uk-icon-quote-right uk-icon-small"></i></h3>
+            <!--              <h3><i class="uk-icon-quote-left uk-icon-small align-left"></i>Our objective is to build a global biotechnology-pharmaceutical business around two first-in-class drug technology platforms<i class="uk-icon-quote-right uk-icon-small"></i></h3>-->
+            <p><em>Dr Graham Kelly</em> CEO</p>
+            <!--              <button class="uk-button uk-button-primary">Button</button>-->
+          </div>
+        </div>
       </li>
-      <li class="block-four uk-width-medium-2-6">
-       <div class="split-grid-top"><a href="blog.html">
+      <li>
+        <!--          <img src=""  alt="aqua color background">-->
+        <div class="uk-caption uk-caption-panel uk-animation-fade uk-text-center">
+          <div class="quotes caption-text">
+            <h3><i class="uk-icon-quote-left uk-icon-small align-left"></i>Novogen uses breakthrough technology to create drugs that kill aberrant stem cells.<i class="uk-icon-quote-right uk-icon-small"></i></h3>
+            <p><em>Dr Graham Kelly</em> CEO</p>
+            <!--              <button class="uk-button uk-button-primary">Button</button>-->
+          </div>
+        </div>
+      </li>
+      <li>
+        <!--          <img src=""  alt="aqua color background">-->
+        <div class="uk-caption uk-caption-panel uk-animation-fade uk-text-center">
+          <div class="quotes caption-text">
+            <h3>Novogen's latest announcement</h3>
+            <p>Click to view our latest announcement</p>
+            <a href="#slide-two-modal-one" class="uk-button uk-button-secondary" data-uk-modal >Open</a>
+            <!--              <button class="uk-button uk-button-primary">Button</button>-->
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+  <ul class="uk-grid uk-grid-preserve">
+    <li class="block-one uk-width-medium-1-3">
+      <a href="#first-box" data-uk-modal><img src="img/neurons-green.svg" alt="icon of neurons">
+        <h2>Company Overview</h2><p>Click to read our overview</p>
+      </a>
+    </li>
+    <li class="block-two uk-width-medium-2-3">
+      <a href="#second-box" data-uk-modal><img src="img/video-green.svg" alt="icon of a play button">
+        <h2>Video Presentation</h2><p>Novogen and Cantrixil presentation - Interview with Dr. Graham Kelly</p>
+      </a></li>
+  </ul>
+  <ul class="uk-grid uk-grid-preserve"  style="margin-top: 0">
+    <li class="block-three uk-width-medium-2-6"><a href="blog.html">
+      <img src="img/news-read-green.svg" alt="icon of a stopwatch">
+      <h2>CEO Corner</h2><p>Read our CEO's blog posts </p></a>
+    </li>
+    <li class="block-four uk-width-medium-2-6">
+      <div class="split-grid-top"><a href="blog.html">
         <img src="img/stopwatch-green.svg" alt="icon of a stopwatch">
         <h2>30 second overview</h2>
         </a></div>
-        <div class="split-grid-bottom"><a href="blog.html">
+      <div class="split-grid-bottom"><a href="blog.html">
         <img src="img/stopwatch-green.svg" alt="icon of a clock">
         <h2>3 minute overview</h2>
         </a></div>
-      </li>
-      <li class="block-five uk-width-medium-2-6">
-        <img src="img/news-webinar-green.svg" alt="icon of a calendar">
-        <h2>Current Events</h2><p>Upcoming events</p>
-      </li>
-    </ul>
+    </li>
+    <li class="block-five uk-width-medium-2-6">
+      <img src="img/news-webinar-green.svg" alt="icon of a calendar">
+      <h2>Current Events</h2><p>Upcoming events</p>
+    </li>
+  </ul>
 
-    <div id="first-box" class="overflow uk-modal">
-      <div class="uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
-        <a class="uk-modal-close uk-close"></a>
-        <iframe src="pdf/corporateOverview.pdf" class="pdf"></iframe>
-<!--
-        <h2>Company Overview</h2>
-        <p>Novogen (ASX:NRT, NASDAQ:NVGN) differentiates itself in the market space from all other stem cell and cancer therapy biotechs.  Why?  Because our product will target the stem cell and the somatic cell in the one drug.  </p>
-        <p>Novogen has an extensive program based around two propriety drug technologies targeting significant unmet clinical needs.  The aim of both these platforms is to convert cancer and other degenerative diseases into non-lethal manageable conditions.  Novogen’s pipeline of drug candidates does not just focus on the unmet need of one cancer, but the drug candidates potential <em>covers 90% of cancer types </em>thereby increasing the market size significantly.  One of these drug technologies TRX-E-002-1 is the first single drug capable of killing both the stem (parent cell) and somatic (daughter) cell.  Novogen believes that this is a game changing development that offers the first realistic prospect of eradicating the source of cancer cells, thereby delivery long-term remission. </p>
-        <p>In November 2013, Novogen formed a joint venture company (CanTx Inc) with Yale University, being the only Australian Biotech company to have entered into a partnership with a US Ivy League University.</p>
-        <p>Novogen is Sydney based with an office in New Haven, Connecticut.  </p>
-        <h3>Investment Highlights</h3>
-        <ul>
-          <li>World first technology capable of producing drugs that kill the stem and somatic cells in equal measure</li>
-          <li>Global operations with offices in the US and Australia</li>
-          <li>Multi billion dollar market opportunities </li>
-          <li>Pipeline of unique and highly valued intellectual property portfolio </li>
-          <li>Novogen has established strong partnerships with academic institutions and other for profit and not for profit companies in Australia, US and Europe.</li>
-          <li>Clinical Trials commencing 2015</li>
-          <li>###Patents</li>
-        </ul>
-        <h3>Key Announcements 2014</h3>
-        <ul>
-          <h4>November 2014</h4>
-          <li>
-            <p>Cantrixil proves highly effective in pre-clinical test of refractory ovarian cancer – Confirmation Cantrixil, has passed its final pre-clinical test of efficacy as evidence of its potential to significantly improve the survival prospects of patients with late-stage ovarian cancer</p>
-          </li>
-          <h4>October 2014</h4>
-          <li>
-            <p>Studies confirm TRX-E-009-1, one of Novogen’s lead drug candidate compounds has the ability to kill paediatric brain cancer cells, clearing the way for the compound to come into the clinic as a potential treatment of childhood cancers.</p>
-          </li>
-          <h4>September 2014</h4>
-          <li>
-            <p>ABC TV Interview with Dr Graham Kelly discussing the Novogen program</p>
-          </li>
-          <h4>August 2014</h4>
-          <li>
-            <p>Announcement of funding provided by FSHD Global Research Foundation supporting a collaboration between Novogen and fellow Australian biotechnology company, Genea Biocells</p>
-          </li>
-          <li>
-            <h4>June 2014</h4>
-            <p>Novogen and CanTx announce potency of Intra-Peritoneal Trx-1 confirmed against chemo-resistant ovarian cancer stem cells</p>
-          </li>
-          <h4>May 2014</h4>
-          <li>
-            <p>Novogen identifies highly active drug candidates against prostate cancer extending Novogen’s pre-clinical program to include prostate as well as brain cancer</p>
-          </li>
-          <li><p>Novogen partners with the Children’s Oncology Drug Alliance to form a unique research and development alliance to facilitate development of treatments for children with cancer</p></li>
-          <li><p>Novogen and Genea Announce partnership to investigate promising new approach to neurodegenerative diseases</p></li>
-          <h4>March 2014</h4>
-          <li>
-            <p>Novogen and CanTx confirm an important milestone with lead candidate drug Trx-1 demonstrating a potent anti-cancer effect in mice xenografted with human ovarian cancer stem cell</p>
-          </li>
-        </ul>
+  <div id="first-box" class="overflow uk-modal">
+    <div class="uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+      <a class="uk-modal-close uk-close"></a>
+      <iframe src="pdf/corporateOverview.pdf" class="pdf"></iframe>
+      <!--
+<h2>Company Overview</h2>
+<p>Novogen (ASX:NRT, NASDAQ:NVGN) differentiates itself in the market space from all other stem cell and cancer therapy biotechs.  Why?  Because our product will target the stem cell and the somatic cell in the one drug.  </p>
+<p>Novogen has an extensive program based around two propriety drug technologies targeting significant unmet clinical needs.  The aim of both these platforms is to convert cancer and other degenerative diseases into non-lethal manageable conditions.  Novogen’s pipeline of drug candidates does not just focus on the unmet need of one cancer, but the drug candidates potential <em>covers 90% of cancer types </em>thereby increasing the market size significantly.  One of these drug technologies TRX-E-002-1 is the first single drug capable of killing both the stem (parent cell) and somatic (daughter) cell.  Novogen believes that this is a game changing development that offers the first realistic prospect of eradicating the source of cancer cells, thereby delivery long-term remission. </p>
+<p>In November 2013, Novogen formed a joint venture company (CanTx Inc) with Yale University, being the only Australian Biotech company to have entered into a partnership with a US Ivy League University.</p>
+<p>Novogen is Sydney based with an office in New Haven, Connecticut.  </p>
+<h3>Investment Highlights</h3>
+<ul>
+<li>World first technology capable of producing drugs that kill the stem and somatic cells in equal measure</li>
+<li>Global operations with offices in the US and Australia</li>
+<li>Multi billion dollar market opportunities </li>
+<li>Pipeline of unique and highly valued intellectual property portfolio </li>
+<li>Novogen has established strong partnerships with academic institutions and other for profit and not for profit companies in Australia, US and Europe.</li>
+<li>Clinical Trials commencing 2015</li>
+<li>###Patents</li>
+</ul>
+<h3>Key Announcements 2014</h3>
+<ul>
+<h4>November 2014</h4>
+<li>
+<p>Cantrixil proves highly effective in pre-clinical test of refractory ovarian cancer – Confirmation Cantrixil, has passed its final pre-clinical test of efficacy as evidence of its potential to significantly improve the survival prospects of patients with late-stage ovarian cancer</p>
+</li>
+<h4>October 2014</h4>
+<li>
+<p>Studies confirm TRX-E-009-1, one of Novogen’s lead drug candidate compounds has the ability to kill paediatric brain cancer cells, clearing the way for the compound to come into the clinic as a potential treatment of childhood cancers.</p>
+</li>
+<h4>September 2014</h4>
+<li>
+<p>ABC TV Interview with Dr Graham Kelly discussing the Novogen program</p>
+</li>
+<h4>August 2014</h4>
+<li>
+<p>Announcement of funding provided by FSHD Global Research Foundation supporting a collaboration between Novogen and fellow Australian biotechnology company, Genea Biocells</p>
+</li>
+<li>
+<h4>June 2014</h4>
+<p>Novogen and CanTx announce potency of Intra-Peritoneal Trx-1 confirmed against chemo-resistant ovarian cancer stem cells</p>
+</li>
+<h4>May 2014</h4>
+<li>
+<p>Novogen identifies highly active drug candidates against prostate cancer extending Novogen’s pre-clinical program to include prostate as well as brain cancer</p>
+</li>
+<li><p>Novogen partners with the Children’s Oncology Drug Alliance to form a unique research and development alliance to facilitate development of treatments for children with cancer</p></li>
+<li><p>Novogen and Genea Announce partnership to investigate promising new approach to neurodegenerative diseases</p></li>
+<h4>March 2014</h4>
+<li>
+<p>Novogen and CanTx confirm an important milestone with lead candidate drug Trx-1 demonstrating a potent anti-cancer effect in mice xenografted with human ovarian cancer stem cell</p>
+</li>
+</ul>
 -->
 
 
-      </div>
     </div>
+  </div>
 
 
-    <div id="second-box" class="uk-modal">
-      <div class="uk-modal-dialog uk-modal-dialog-large">
+  <div id="second-box" class="uk-modal">
+    <div class="uk-modal-dialog uk-modal-dialog-large">
+      <a class="uk-modal-close uk-close"></a>
+      <h2>Latest Video Presentation</h2>
+      <p>This interview of Dr. Graham Kelly, Chairman and CEO of Novogen Group, gives a quick overview of the group's activity and focuses on its lead program, Oncology, particularly Cantrixil</p>
+      <div class="videoWrapper">
+        <!-- Copy & Pasted from YouTube -->
+        <iframe width="560" height="349" src="http://www.youtube.com/embed/0zZoTLlZx2M?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="slide-two-modal-one" class="uk-modal">
+    <div class="uk-modal-dialog uk-modal-dialog-large">
+      <a class="uk-modal-close uk-close"></a>
+      <h2>Latest Video Presentation</h2>
+      <p>This interview of Dr. Graham Kelly, Chairman and CEO of Novogen Group, gives a quick overview of the group's activity and focuses on its lead program, Oncology, particularly Cantrixil</p>
+      <div class="videoWrapper">
+        <!-- Copy & Pasted from YouTube -->
+        <!--          <iframe width="560" height="349" src="http://www.youtube.com/embed/y9yTUO6k3kc?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>-->
+        <iframe width="560" height="349" src="http://www.youtube.com/embed/0zZoTLlZx2M?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+
+
+     <div id="sbp-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
         <a class="uk-modal-close uk-close"></a>
-        <h2>Latest Video Presentation</h2>
-        <p>This interview of Dr. Graham Kelly, Chairman and CEO of Novogen Group, gives a quick overview of the group's activity and focuses on its lead program, Oncology, particularly Cantrixil</p>
-        <div class="videoWrapper">
-          <!-- Copy & Pasted from YouTube -->
-          <iframe width="560" height="349" src="http://www.youtube.com/embed/0zZoTLlZx2M?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
-        </div>
-
+        <iframe src="pdf/Publication_SBPandATM.pdf" class="pdf"></iframe>
       </div>
     </div>
-
-
-    <div id="slide-two-modal-one" class="uk-modal">
-      <div class="uk-modal-dialog uk-modal-dialog-large">
+    <div id="anti-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
         <a class="uk-modal-close uk-close"></a>
-        <h2>Latest Video Presentation</h2>
-        <p>This interview of Dr. Graham Kelly, Chairman and CEO of Novogen Group, gives a quick overview of the group's activity and focuses on its lead program, Oncology, particularly Cantrixil</p>
-        <div class="videoWrapper">
-          <!-- Copy & Pasted from YouTube -->
-<!--          <iframe width="560" height="349" src="http://www.youtube.com/embed/y9yTUO6k3kc?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>-->
-          <iframe width="560" height="349" src="http://www.youtube.com/embed/0zZoTLlZx2M?rel=0&hd=1" frameborder="0" allowfullscreen></iframe>
-        </div>
-
+        <iframe src="pdf/atm.pdf" class="pdf"></iframe>
+      </div>
+    </div>
+    <div id="cantx-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+        <a class="uk-modal-close uk-close"></a>
+        <iframe src="pdf/cantrixil.pdf" class="pdf"></iframe>
+      </div>
+    </div>
+    <div id="jacob-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+        <a class="uk-modal-close uk-close"></a>
+        <iframe src="pdf/degenerativeDiseases.pdf" class="pdf"></iframe>
       </div>
     </div>
 
-    <footer>
-      <div class="uk-grid" style="margin-top: 0">
-        <div class="footer-links uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
-          <ul class="uk-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a><li>
-            <li><a href="#">Pipeline</a></li>
-            <li><a href="#">Investors</a></li>
-          </ul>
-        </div>
-        <ul class="shares-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
-          <li><a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank"><img src="img/ASX.svg"></a></li>
-          <li><a href="http://www.nasdaq.com/symbol/nvgn/sec-filings" target="_blank"><img src="img/nasdaq.svg"></a></li>
+  <footer>
+    <div class="uk-grid" style="margin-top: 0">
+      <div class="footer-links uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
+        <ul class="uk-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a><li>
+          <li><a href="#">Pipeline</a></li>
+          <li><a href="#">Investors</a></li>
         </ul>
-        <div class="uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
-          <!--
+      </div>
+      <ul class="shares-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
+        <li><a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank"><img src="img/ASX.svg"></a></li>
+        <li><a href="http://www.nasdaq.com/symbol/nvgn/sec-filings" target="_blank"><img src="img/nasdaq.svg"></a></li>
+      </ul>
+      <div class="uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
+        <!--
 <form class="uk-form">
 
 <fieldset data-uk-margin>
@@ -377,27 +409,27 @@
 </form>
 -->
 
-          <form class="uk-form" name="catwebformform83042" method="post" onsubmit="return checkWholeForm83042(this)" enctype="multipart/form-data" action="/FormProcessv2.aspx?WebFormID=84800&OID={module_oid}&OTYPE={module_otype}&EID={module_eid}&CID={module_cid}">
-            <fieldset data-uk-margin> <legend> Sign up to stay informed</legend>
-              <table class="webform" cellspacing="0" cellpadding="2" border="0"><tr><td><input type="text" placeholder="you@email.com" name="EmailAddress" id="EmailAddress" class="cat_textbox" style="width: 169px" maxlength="255"/> </td></tr><tr><td><input class="cat_button uk-button" type="submit" value="Submit" id="catwebformbutton" /></td></tr></table>
-            </fieldset>
-            <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script><script type="text/javascript">
-            //<![CDATA[
-            var submitcount83042 = 0;function checkWholeForm83042(theForm){var why = "";if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if(why != ""){alert(why);return false;}if(submitcount83042 == 0){submitcount83042++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
-            //]]>
-            </script></form>
+        <form class="uk-form" name="catwebformform83042" method="post" onsubmit="return checkWholeForm83042(this)" enctype="multipart/form-data" action="/FormProcessv2.aspx?WebFormID=84800&OID={module_oid}&OTYPE={module_otype}&EID={module_eid}&CID={module_cid}">
+          <fieldset data-uk-margin> <legend> Sign up to stay informed</legend>
+            <table class="webform" cellspacing="0" cellpadding="2" border="0"><tr><td><input type="text" placeholder="you@email.com" name="EmailAddress" id="EmailAddress" class="cat_textbox" style="width: 169px" maxlength="255"/> </td></tr><tr><td><input class="cat_button uk-button" type="submit" value="Submit" id="catwebformbutton" /></td></tr></table>
+          </fieldset>
+          <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script><script type="text/javascript">
+          //<![CDATA[
+          var submitcount83042 = 0;function checkWholeForm83042(theForm){var why = "";if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if(why != ""){alert(why);return false;}if(submitcount83042 == 0){submitcount83042++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
+          //]]>
+          </script></form>
 
 
-
-        </div>
-        <ul class="social-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4 ">
-          <li><a href="https://twitter.com/Novogen" target="_blank"><img src="img/twitter.png" class="twitter-bottom uk-align-right"></a></li>
-          <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><img src="img/LinkedIn.svg" class="linkedin-bottom uk-align-right"></a></li>
-          <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><img src="img/youtube.svg" class="utube-bottom uk-align-right"></a></li>
-        </ul>
 
       </div>
-    </footer>
+      <ul class="social-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4 ">
+        <li><a href="https://twitter.com/Novogen" target="_blank"><img src="img/twitter.png" class="twitter-bottom uk-align-right"></a></li>
+        <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><img src="img/LinkedIn.svg" class="linkedin-bottom uk-align-right"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><img src="img/youtube.svg" class="utube-bottom uk-align-right"></a></li>
+      </ul>
+
+    </div>
+  </footer>
 
   </body>
 </html>
