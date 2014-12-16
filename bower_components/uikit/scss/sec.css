@@ -1,0 +1,17 @@
+/* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec.scss */
+.sec {
+  height: 80px;
+  text-align: center;
+  text-transform: uppercase; }
+  /* line 5, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec.scss */
+  .sec .sec-items {
+    padding-top: 25px; }
+
+/* line 10, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec.scss */
+.sec-icons {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  padding-top: 20px; }
+
+/*# sourceMappingURL=sec.css.map */

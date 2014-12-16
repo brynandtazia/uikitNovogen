@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "sec.css",
+  "sources": [
+    "sec.scss"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EACE,QAAO;EACP,YAAY;EACZ,gBAAgB;;EAAlB,KAAK;IAEH,aAAa;;;AAIf;EACE,SAAS;EACT,eAAe;EACf,iBAAiB;EAEjB,aAAa",
+  "sourceRoot": ""
+}

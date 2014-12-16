@@ -9463,6 +9463,39 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     padding: 20px;
     font-family: 'Raleway', sans-serif; }
 
+/* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec */
+.sec-top {
+  height: 260px;
+  background: #1dada5;
+  color: #fff;
+  text-align: center; }
+  /* line 6, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec */
+  .sec-top h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif; }
+
+/* line 12, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec */
+.sec {
+  height: 80px;
+  text-align: center;
+  text-transform: uppercase; }
+  /* line 16, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec */
+  .sec .sec-items {
+    padding-top: 25px; }
+
+/* line 21, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec */
+.sec-icons {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 20px; }
+  /* line 28, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec */
+  .sec-icons i {
+    padding-left: 20px; }
+
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
 footer {
   padding-top: 40px;

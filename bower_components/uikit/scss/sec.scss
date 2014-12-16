@@ -1,0 +1,31 @@
+.sec-top{
+  height: 260px;
+  background: $aqua;
+  color: #fff;
+  text-align: center;
+  h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: $googlefont;
+  }
+}
+.sec{
+  height:80px;
+  text-align: center;
+  text-transform: uppercase;
+  .sec-items{
+  padding-top: 25px;
+  }
+}
+
+.sec-icons{
+  display: flex;
+    flex-direction: row;
+  align-content:space-around;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 20px;
+i{
+  padding-left: 20px;
+}
+}
