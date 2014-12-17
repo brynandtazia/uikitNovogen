@@ -31,17 +31,20 @@
 .bc-contact-wrap{
   background: $dark;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .webform{
   width: 80%;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+
   input[type="text"]{
     font-size:1.4rem;
     font-family: $googlefont;
     padding-left: 10px;
   }
+
   tr{
     width: 80%;
     max-width: 600px;
@@ -53,11 +56,56 @@
     .cat_listbox{
       width: 100%;
       max-width: 600px;
-      height: 60px;
+      height: 80px;
+      font-family: $googlefont;
+      font-size: 1.4rem;
+      padding-left: 10px;
     }
     td{
       font-family: $googlefont;
-      color: #fff;
+      color: $dark;
+      .uk-button-primary{
+  background: #fff;
+        color: $dark;
+        font-family: $googlefont;
+        padding: 10px 10px 10px 10px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        border: none;
+        &:hover{
+        background: $aqua;
+          color: #fff;
+        }
+}
     }
+  }
+}
+.contact-deets-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  h3{
+    font-weight: 400;
+    color: black;
+  }
+  h4{
+    color: $dark
+  }
+  .contract-address{
+  width: 100%;
+    @media screen and (min-width: 400px){
+    width: 50%;
+    }
+  }
+  .contract-address{
+  width: 100%;
+    @media screen and (min-width: 400px){
+    width: 50%;
+    }
+
   }
 }

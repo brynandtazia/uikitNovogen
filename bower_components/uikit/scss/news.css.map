@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "news.css",
+  "sources": [
+    "news.scss"
+  ],
+  "names": [],
+  "mappings": ";AAAA,MAAM;EAEF,QAAQ",
+  "sourceRoot": ""
+}
