@@ -1,3 +1,63 @@
-.cat_textbox{
-  width: 200px;
+.contact-top{
+  height: 160px;
+  background: $aqua;
+  color: #fff;
+  text-align: center;
+  font-family: $googlefont;
+  h1{
+    color: #fff;
+    font-family: $googlefont;
+    text-transform: uppercase;
+  }
+}
+.contact-second{
+  background: #fff;
+  height: 140px;
+  .contact-text{
+    h4{
+      font-family: $googlefont;
+      font-size: 1.2rem;
+      width: 80%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: $dark;
+      @media screen and(min-width: 600px){
+        font-size:  1.4rem;
+      }
+    }
+  }
+}
+.bc-contact-wrap{
+  background: $dark;
+  padding-top: 40px;
+}
+.webform{
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  input[type="text"]{
+    font-size:1.4rem;
+    font-family: $googlefont;
+    padding-left: 10px;
+  }
+  tr{
+    width: 80%;
+    max-width: 600px;
+    .cat_textbox{
+      width: 100%;
+      max-width: 600px;
+      height: 40px;
+    }
+    .cat_listbox{
+      width: 100%;
+      max-width: 600px;
+      height: 60px;
+    }
+    td{
+      font-family: $googlefont;
+      color: #fff;
+    }
+  }
 }

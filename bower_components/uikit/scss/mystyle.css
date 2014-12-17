@@ -9451,8 +9451,69 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   max-width: 90%; }
 
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
-.cat_textbox {
-  width: 200px; }
+.contact-top {
+  height: 160px;
+  background: #1dada5;
+  color: #fff;
+  text-align: center;
+  font-family: 'Raleway', sans-serif; }
+  /* line 7, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  .contact-top h1 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase; }
+
+/* line 13, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+.contact-second {
+  background: #fff;
+  height: 140px; }
+  /* line 17, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  .contact-second .contact-text h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #5f5f5f; }
+    @media screen and (min-width: 600px) {
+      .contact-second .contact-text h4 {
+        font-size: 1.4rem; } }
+
+/* line 31, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+.bc-contact-wrap {
+  background: #5f5f5f;
+  padding-top: 40px; }
+
+/* line 35, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+.webform {
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 40, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  .webform input[type="text"] {
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px; }
+  /* line 45, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  .webform tr {
+    width: 80%;
+    max-width: 600px; }
+    /* line 48, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+    .webform tr .cat_textbox {
+      width: 100%;
+      max-width: 600px;
+      height: 40px; }
+    /* line 53, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+    .webform tr .cat_listbox {
+      width: 100%;
+      max-width: 600px;
+      height: 60px; }
+    /* line 58, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+    .webform tr td {
+      font-family: 'Raleway', sans-serif;
+      color: #fff; }
 
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/blog */
 .side-quote {

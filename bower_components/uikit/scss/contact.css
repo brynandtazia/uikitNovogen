@@ -1,5 +1,23 @@
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact.scss */
-.cat_textbox {
-  width: 200px; }
+.webform {
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 6, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact.scss */
+  .webform tr {
+    width: 80%;
+    background: pink;
+    max-width: 600px; }
+    /* line 10, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact.scss */
+    .webform tr .cat_textbox {
+      width: 100%;
+      max-width: 600px;
+      height: 40px; }
+    /* line 15, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact.scss */
+    .webform tr .cat_listbox {
+      width: 100%;
+      max-width: 600px;
+      height: 60px; }
 
 /*# sourceMappingURL=contact.css.map */
