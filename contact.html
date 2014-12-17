@@ -37,7 +37,7 @@
     <div class="social-bar uk-vertical-align">
       <div class="share-icons uk-vertical-align-middle uk-grid uk-width-1-1">
         <span class="share-wrap uk-width-1-2">
-          <a href="http://www.nasdaq.com/symbol/nvgn/sec-filings" target="_blank"><img src="img/nasdaq.svg" class="nasdaq-top">
+          <a href="http://www.nasdaq.com/symbol/nvgn/share-filings" target="_blank"><img src="img/nasdaq.svg" class="nasdaq-top">
             <a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank"><img src="img/ASX.svg" class="asx-top "></a>
             </span>
           <span class="social-wrap uk-width-1-2">
@@ -49,27 +49,27 @@
 
       </div>
       <nav class="uk-navbar uk-navbar-attached" data-uk-sticky>
-        <a class="logo uk-navbar-brand" href="index.html"><img src="img/novogen-white.svg" alt="Novogen Logo with white writing on dark background"></a>
+        <a class="logo uk-navbar-brand" href="index.html"><img src="img/novogen-logo.svg" alt="Novogen Logo with white writing on dark background"></a>
         <ul class="uk-navbar-nav uk-navbar-flip uk-hidden-small">
           <li class="menu-item" data-uk-dropdown><a href="about.html">About</a>
-            <div class="uk-dropdown uk-dropdown-navbar">
+            <div class="long-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
                 <li><a href="#">History</a></li>
-                <li><a href="#">Vision</a></li>
-                <li><a href="#">CEO</a></li>
-                <li><a href="#">The Board</a></li>
-                <li><a href="#">Executive Team</a></li>
+                <li><a href="#">News</a></li>
+                <!--                <li><a href="#">CEO</a></li>-->
+                <li><a href="theboard.html">The Board</a></li>
+                <li><a href="management.html">Management Team</a></li>
               </ul>
             </div>
           </li>
-          <li class="menu-item" data-uk-dropdown><a href="programs.html">Progams</a>
+          <li class="menu-item" data-uk-dropdown><a href="programs.html">Pipeline</a>
 
             <div class="longer-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
-                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
-                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
-                <li><a href="">CANTX PROGRAM</a></li>
-                <li><a href="">PROJECT JACOB HOPE</a></li>
+                <li><a href="#sbp-box" data-uk-modal>SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
+                <li><a href="#anti-box" data-uk-modal>ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
+                <li><a href="#cantx-box" data-uk-modal>CANTX PROGRAM</a></li>
+                <li><a href="#jacob-box" data-uk-modal>PROJECT JACOB HOPE</a></li>
               </ul>
             </div>
 
@@ -79,10 +79,13 @@
               <ul class="uk-nav uk-nav-navbar">
                 <li><a href="">LATEST PRESENTATIONS</a></li>
                 <li><a href="">MEDIA</a></li>
-                <li><a href="">NEWSLETTERS</a></li>
+                <li><a href="">NEWS</a></li>
                 <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li>
                 <li><a href="">CORPORATE GOVERNANCE</a></li>
                 <li><a href="">SHARE PRICE</a></li>
+                <li><a href="sec.html">SEC FILINGS</a></li>
+                <li><a href="asx.html">ASX FILINGS</a></li>
+                <li><a href="">ANNUAL REPORTS</a></li>
               </ul>
             </div>
           </li>
@@ -92,7 +95,6 @@
       </nav>
       <div id="mobi-nav" class="uk-offcanvas">
 
-
         <div class="uk-offcanvas-bar">
 
           <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav>
@@ -100,76 +102,93 @@
             <li class="uk-active"><a href="index.html">HOME</a></li>
 
             <li class="uk-parent">
-              <a href="about.html">ABOUT</a>
-              <ul class="uk-nav-sub">
-                <li><a href="#">HISTORY</a></li>
-                <li><a href="#">VISION</a></li>
-                <li><a href="#">CEO</a></li>
-                <li><a href="#">THE BOARD</a></li>
-                <li><a href="#">EXECUTIVE TEAM</a></li>
+              <a href="#">ABOUT</a>
+              <ul class="uk-nav uk-subnav">
+                <li><a href="about.html">ABOUT PAGE</a></li><br>
+                <li><a href="#">HISTORY</a></li><br>
+                <!--                <li><a href="#">VISION</a></li>-->
+                <!--                <li><a href="#">CEO</a></li>-->
+                <li><a href="theboard.html">THE BOARD</a></li><br>
+                <li><a href="management.html">MANAGEMENT TEAM</a></li><br>
               </ul>
             </li>
 
             <li class="uk-parent">
-              <a href="programs.html">PROGRAMS</a>
-              <ul class="uk-nav-sub">
-                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li>
-                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li>
-                <li><a href="">CANTX PROGRAM</a></li>
-                <li><a href="">PROJECT JACOB HOPE</a></li>
+              <a href="#">PIPELINE</a>
+              <ul class="uk-nav uk-subnav">
+                <li><a href="">PIPELINE PAGE</a></li><br>
+                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li><br>
+                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li><br>
+                <li><a href="">CANTX PROGRAM</a></li><br>
+                <li><a href="">PROJECT JACOB HOPE</a></li><br>
               </ul>
             </li>
             <li class="uk-parent">
-              <a href="investors.html">INVESTORS</a>
-              <ul class="uk-nav-sub">
-                <li><a href="">LATEST PRESENTATIONS</a></li>
-                <li><a href="">MEDIA</a></li>
-                <li><a href="">NEWSLETTERS</a></li>
-                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li>
-                <li><a href="">CORPORATE GOVERNANCE</a></li>
-                <li><a href="">SHARE PRICE</a>
-                  <ul>
-                    <li><a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank">ASX</a></li>
-                    <li><a href="http://www.nasdaq.com/symbol/nvgn/sec-filings" target="_blank">Nasdaq</a></li>
-                  </ul>
+              <a href="#">INVESTORS</a>
+              <ul class="uk-nav uk-subnav">
+                <li><a href="">INVESTORS PAGE</a></li><br>
+                <li><a href="">LATEST PRESENTATIONS</a></li><br>
+                <li><a href="">MEDIA</a></li><br>
+                <li><a href="">NEWSLETTERS</a></li><br>
+                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li><br>
+                <li><a href="">CORPORATE GOVERNANCE</a></li><br>
+                <li><a href="">SHARE PRICE</a></li><br>
+                <li><a href="sec.html">SEC FILINGS</a></li><br>
+                <li><a href="asx.html">ASX FILINGS</a></li><br>
+                <li><a href="">ANNUAL REPORTS</a></li>
+                <ul>
+                  <li><a href="" target="_blank">ASX</a></li>
+                  <li><a href="" target="_blank">Nasdaq</a></li>
+                </ul>
                 </li>
-              </ul>
-            </li>
+          </ul>
+          </li>
 
-            <li class="uk-nav-header">Connect with us</li>
-            <li><a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a></li>
-            <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a></li>
-            <li><a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li>
-            <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a></li>
-            <!--
+        <li class="uk-nav-header">Connect with us</li>
+        <li><a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a></li>
+        <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a></li>
+        <li><a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a></li>
+        <!--
 <li class="uk-nav-divider"></li>
 <li><a href=""><i class="uk-icon-rss"></i> Item</a></li>
 -->
-          </ul>
+        </ul>
 
+    </div>
+
+    </div>
+
+
+<div class="shares-top uk-vertical-align">
+        <div class="uk-vertical-align-middle">
+          <h1>Contact us</h1>
         </div>
-
       </div>
+ 
 
+<form name="catwebformform56314" method="post" onsubmit="return checkWholeForm56314(this)" enctype="multipart/form-data" action="http://curecancernovogen.businesscatalyst.com/FormProcessv2.aspx?WebFormID=10090&OID={module_oid}&OTYPE={module_otype}&EID={module_eid}&CID={module_cid}"> <span class="req">*</span>  Required<table class="webform" cellspacing="0" cellpadding="2" border="0"><tr><td><label for="CellPhone">Cell Phone Number</label><br /><input type="text" name="CellPhone" id="CellPhone" class="cat_textbox" maxlength="255" /></td></tr><tr><td><label for="HomePhone">Home Phone Number <span class="req">*</span></label><br /><input type="text" name="HomePhone" id="HomePhone" class="cat_textbox" maxlength="255" /></td></tr><tr><td><label for="EmailAddress">Email Address <span class="req">*</span></label><br /><input type="text" name="EmailAddress" id="EmailAddress" class="cat_textbox" maxlength="255" /> </td></tr><tr><td><label for="Title">Title</label><br /><select name="Title" id="Title" class="cat_dropdown_smaller"><option value="1009632">DR</option><option value="1009631">MISS</option><option value="1009628" selected="selected">MR</option><option value="1009629">MRS</option><option value="1009630">MS</option></select></td></tr><tr><td><label for="FirstName">First Name <span class="req">*</span></label><br /><input type="text" name="FirstName" id="FirstName" class="cat_textbox" maxlength="255" /> </td></tr><tr><td><label for="LastName">Last Name <span class="req">*</span></label><br /><input type="text" name="LastName" id="LastName" class="cat_textbox" maxlength="255" /> </td></tr><tr><td><label for="CAT_Custom_869">Comments/Enquiries</label><br /><textarea name="CAT_Custom_869" id="CAT_Custom_869" cols="10" rows="4" class="cat_listbox" onkeydown="if(this.value.length>=4000)this.value=this.value.substring(0,3999);"></textarea></td></tr><tr><td><label>Preferred Contact Method</label><br /><input type="radio" name="CAT_Custom_868" id="CAT_Custom_868_0" value="Phone" />Phone<br /><input type="radio" name="CAT_Custom_868" id="CAT_Custom_868_1" value="Email" />Email</td></tr><tr><td><input class="cat_button" type="submit" value="Submit" id="catwebformbutton" /></td></tr></table><script type="text/javascript" src="http://curecancernovogen.businesscatalyst.com/CatalystScripts/ValidationFunctions.js?vs=b321.r443849-phase1"></script><script type="text/javascript">
+//<![CDATA[
+var submitcount56314 = 0;function checkWholeForm56314(theForm){var why = "";if (theForm.HomePhone) why += isEmpty(theForm.HomePhone.value, "Home Phone Number"); if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if (theForm.FirstName) why += isEmpty(theForm.FirstName.value, "First Name"); if (theForm.LastName) why += isEmpty(theForm.LastName.value, "Last Name"); if(why != ""){alert(why);return false;}if(submitcount56314 == 0){submitcount56314++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
+//]]>
+</script></form>
 
-
-
-      <footer>
-        <div class="uk-grid" style="margin-top: 0">
-          <div class="footer-links uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
-            <ul class="uk-list">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a><li>
-              <li><a href="programs.html">Programs</a></li>
-              <li><a href="investors.html">Investors</a></li>
-            </ul>
-          </div>
-          <ul class="shares-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
-            <li><a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank"><img src="img/ASX.svg"></a></li>
-            <li><a href="http://www.nasdaq.com/symbol/nvgn/sec-filings" target="_blank"><img src="img/nasdaq.svg"></a></li>
-          </ul>
-          <div class="uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
-            <!--
+  <footer>
+    <div class="uk-grid" style="margin-top: 0">
+      <div class="footer-links uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
+        <ul class="uk-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a><li>
+          <li><a href="#">Pipeline</a></li>
+          <li><a href="#">Investors</a></li>
+        </ul>
+      </div>
+      <ul class="shares-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
+        <li><a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank"><img src="img/ASX.svg"></a></li>
+        <li><a href="http://www.nasdaq.com/symbol/nvgn/shares-filings" target="_blank"><img src="img/nasdaq.svg"></a></li>
+      </ul>
+      <div class="uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
+        <!--
 <form class="uk-form">
 
 <fieldset data-uk-margin>
@@ -181,27 +200,27 @@
 </form>
 -->
 
-            <form class="uk-form" name="catwebformform83042" method="post" onsubmit="return checkWholeForm83042(this)" enctype="multipart/form-data" action="/FormProcessv2.aspx?WebFormID=84800&OID={module_oid}&OTYPE={module_otype}&EID={module_eid}&CID={module_cid}">
-              <fieldset data-uk-margin> <legend> Sign up to stay informed</legend>
-                <table class="webform" cellspacing="0" cellpadding="2" border="0"><tr><td><input type="text" placeholder="you@email.com" name="EmailAddress" id="EmailAddress" class="cat_textbox" style="width: 169px" maxlength="255"/> </td></tr><tr><td><input class="cat_button uk-button" type="submit" value="Submit" id="catwebformbutton" /></td></tr></table>
-              </fieldset>
-              <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script><script type="text/javascript">
-              //<![CDATA[
-              var submitcount83042 = 0;function checkWholeForm83042(theForm){var why = "";if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if(why != ""){alert(why);return false;}if(submitcount83042 == 0){submitcount83042++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
-              //]]>
-              </script></form>
+        <form class="uk-form" name="catwebformform83042" method="post" onsubmit="return checkWholeForm83042(this)" enctype="multipart/form-data" action="/FormProcessv2.aspx?WebFormID=84800&OID={module_oid}&OTYPE={module_otype}&EID={module_eid}&CID={module_cid}">
+          <fieldset data-uk-margin> <legend> Sign up to stay informed</legend>
+            <table class="webform" cellspacing="0" cellpadding="2" border="0"><tr><td><input type="text" placeholder="you@email.com" name="EmailAddress" id="EmailAddress" class="cat_textbox" style="width: 169px" maxlength="255"/> </td></tr><tr><td><input class="cat_button uk-button" type="submit" value="Submit" id="catwebformbutton" /></td></tr></table>
+          </fieldset>
+          <script type="text/javascript" src="/CatalystScripts/ValidationFunctions.js"></script><script type="text/javascript">
+          //<![CDATA[
+          var submitcount83042 = 0;function checkWholeForm83042(theForm){var why = "";if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if(why != ""){alert(why);return false;}if(submitcount83042 == 0){submitcount83042++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
+          //]]>
+          </script></form>
 
 
 
-          </div>
-          <ul class="social-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4">
-            <li><a href="https://twitter.com/Novogen" target="_blank"><img src="img/twitter.png" class="twitter-bottom uk-align-right"></a></li>
-            <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><img src="img/LinkedIn.svg" class="linkedin-bottom uk-align-right"></a></li>
-            <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><img src="img/youtube.svg" class="utube-bottom uk-align-right"></a></li>
-          </ul>
+      </div>
+      <ul class="social-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4 ">
+        <li><a href="https://twitter.com/Novogen" target="_blank"><img src="img/twitter.png" class="twitter-bottom uk-align-right"></a></li>
+        <li><a href="https://www.linkedin.com/company/novogen" target="_blank"><img src="img/LinkedIn.svg" class="linkedin-bottom uk-align-right"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><img src="img/youtube.svg" class="utube-bottom uk-align-right"></a></li>
+      </ul>
 
-        </div>
-      </footer>
+    </div>
+  </footer>
 
-      </body>
-    </html>
+  </body>
+</html>

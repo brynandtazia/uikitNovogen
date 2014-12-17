@@ -1,4 +1,4 @@
-.sec-top{
+.shares-top{
   height: 260px;
   background: $aqua;
   color: #fff;
@@ -9,22 +9,28 @@
     font-family: $googlefont;
   }
 }
-.sec{
+.shares{
   height:80px;
   text-align: center;
   text-transform: uppercase;
-  .sec-items{
+  .shares-items{
   padding-top: 25px;
   }
 }
 
-.sec-icons{
+.shares-icons{
   display: flex;
     flex-direction: row;
   align-content:space-around;
   justify-content: space-around;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 0px;
+  a{
+    color: $dark;
+    &:hover{
+    color: $aqua;
+    }
+  }
 i{
   padding-left: 20px;
 }
