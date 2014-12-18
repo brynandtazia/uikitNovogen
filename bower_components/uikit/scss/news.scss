@@ -1,5 +1,49 @@
+.news-top{
+  height: 160px;
+  width: 100%;
+  background: $aqua;
+  text-align: center;
+  h1{
+    text-align: center;
+    color: #fff;
+    font-family: $googlefont;
+  }
+}
 .news{
+  .img-date{
+  margin-top: 20px;
+  }
   img{
+    display: inline-block;
     height: 35px;
+    margin-left: 25px;
+  }
+  .date{
+    display: inline-block;
+    margin-left: 25px;
+  }
+  h1{
+  margin-left: 25px;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    margin-top: 10px;
+    @media screen and(min-width: 600px){
+      font-size: 1.8rem;
+      line-height: 1.9rem;
+    }
+  }
+  .read-more{
+    margin-left: 25px;
+  }
+  .hidden-text-wrap{
+    margin-left: 25px;
+    width: 90%;
+    max-width: 1100px;
+    a{
+      color: $aqua;
+      &:hover{
+        color: $dark
+      }
+    }
   }
 }

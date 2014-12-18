@@ -21,9 +21,14 @@
       text-align: center;
       margin-left: auto;
       margin-right: auto;
+      padding-top: 30px;
       color: $dark;
       @media screen and(min-width: 600px){
         font-size:  1.4rem;
+         padding-top: 40px;
+      }
+      @media screen and(min-width: 1500px){
+         padding-top: 60px;
       }
     }
   }
@@ -38,9 +43,8 @@
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-
   input[type="text"]{
-    font-size:1.4rem;
+    font-size:1.2rem;
     font-family: $googlefont;
     padding-left: 10px;
   }
@@ -65,7 +69,7 @@
       font-family: $googlefont;
       color: $dark;
       .uk-button-primary{
-  background: #fff;
+        background: #fff;
         color: $dark;
         font-family: $googlefont;
         padding: 10px 10px 10px 10px;

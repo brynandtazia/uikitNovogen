@@ -9475,38 +9475,43 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
     color: #5f5f5f; }
     @media screen and (min-width: 600px) {
       .contact-second .contact-text h4 {
-        font-size: 1.4rem; } }
+        font-size: 1.4rem;
+        padding-top: 40px; } }
+    @media screen and (min-width: 1500px) {
+      .contact-second .contact-text h4 {
+        padding-top: 60px; } }
 
-/* line 31, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+/* line 36, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
 .bc-contact-wrap {
   background: #5f5f5f;
   padding-top: 40px;
   padding-bottom: 40px; }
 
-/* line 36, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+/* line 41, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
 .webform {
   width: 80%;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto; }
-  /* line 42, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  /* line 46, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
   .webform input[type="text"] {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: 'Raleway', sans-serif;
     padding-left: 10px; }
-  /* line 48, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  /* line 52, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
   .webform tr {
     width: 80%;
     max-width: 600px; }
-    /* line 51, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+    /* line 55, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
     .webform tr .cat_textbox {
       width: 100%;
       max-width: 600px;
       height: 40px; }
-    /* line 56, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+    /* line 60, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
     .webform tr .cat_listbox {
       width: 100%;
       max-width: 600px;
@@ -9514,11 +9519,11 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       font-family: 'Raleway', sans-serif;
       font-size: 1.4rem;
       padding-left: 10px; }
-    /* line 64, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+    /* line 68, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
     .webform tr td {
       font-family: 'Raleway', sans-serif;
       color: #5f5f5f; }
-      /* line 67, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+      /* line 71, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
       .webform tr td .uk-button-primary {
         background: #fff;
         color: #5f5f5f;
@@ -9527,12 +9532,12 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         font-size: 1.1rem;
         text-transform: uppercase;
         border: none; }
-        /* line 75, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+        /* line 79, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
         .webform tr td .uk-button-primary:hover {
           background: #1dada5;
           color: #fff; }
 
-/* line 83, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+/* line 87, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
 .contact-deets-wrap {
   display: flex;
   flex-direction: row;
@@ -9541,20 +9546,20 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 40px; }
-  /* line 91, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  /* line 95, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
   .contact-deets-wrap h3 {
     font-weight: 400;
     color: black; }
-  /* line 95, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  /* line 99, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
   .contact-deets-wrap h4 {
     color: #5f5f5f; }
-  /* line 98, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  /* line 102, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
   .contact-deets-wrap .contract-address {
     width: 100%; }
     @media screen and (min-width: 400px) {
       .contact-deets-wrap .contract-address {
         width: 50%; } }
-  /* line 104, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
+  /* line 108, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/contact */
   .contact-deets-wrap .contract-address {
     width: 100%; }
     @media screen and (min-width: 400px) {
@@ -9574,9 +9579,54 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     padding: 20px;
     font-family: 'Raleway', sans-serif; }
 
-/* line 2, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+/* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+.news-top {
+  height: 160px;
+  width: 100%;
+  background: #1dada5;
+  text-align: center; }
+  /* line 6, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+  .news-top h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif; }
+
+/* line 13, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+.news .img-date {
+  margin-top: 20px; }
+/* line 16, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
 .news img {
-  height: 35px; }
+  display: inline-block;
+  height: 35px;
+  margin-left: 25px; }
+/* line 21, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+.news .date {
+  display: inline-block;
+  margin-left: 25px; }
+/* line 25, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+.news h1 {
+  margin-left: 25px;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  margin-top: 10px; }
+  @media screen and (min-width: 600px) {
+    .news h1 {
+      font-size: 1.8rem;
+      line-height: 1.9rem; } }
+/* line 35, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+.news .read-more {
+  margin-left: 25px; }
+/* line 38, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+.news .hidden-text-wrap {
+  margin-left: 25px;
+  width: 90%;
+  max-width: 1100px; }
+  /* line 42, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+  .news .hidden-text-wrap a {
+    color: #1dada5; }
+    /* line 44, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
+    .news .hidden-text-wrap a:hover {
+      color: #5f5f5f; }
 
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/sec */
 .shares-top {
