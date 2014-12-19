@@ -1,0 +1,78 @@
+.history-hero{
+  h1{
+    font-family: $googlefont;
+    text-align: center;
+    color: $dark;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @media screen and (min-width: 600px){
+      font-size: 1.4rem;
+      line-height: 2.1rem;
+    }
+    @media screen and (min-width: 1000px){
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+      max-width: 800px;
+    }
+  }
+}
+.history-neurons{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+   img{
+    height: 40px;
+    margin-top: 40px;
+  }
+}
+.history-body{
+      margin-bottom: 40px;
+
+  p{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and(min-width:800px){
+    font-size: 1.3rem;
+       line-height: 1.5rem;
+    }
+  }
+}
+.aqua-text{
+  margin-bottom: 40px;
+  p{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 1200px;
+    color: $aqua;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and(min-width:800px){
+    font-size: 1.3rem;
+       line-height: 1.5rem;
+    }
+  }
+}
+.history-last{
+      margin-bottom: 40px;
+
+  p{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and(min-width:800px){
+    font-size: 1.3rem;
+      line-height: 1.5rem;
+    }
+  }
+}
