@@ -9763,6 +9763,13 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
 .annual-text {
   margin-bottom: 60px; }
   /* line 14, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/annual */
+  .annual-text p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px; }
+  /* line 21, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/annual */
   .annual-text h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
@@ -9867,16 +9874,16 @@ footer {
     /* line 21, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
     footer .shares-footer img {
       width: 90px; }
-  /* line 26, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
+  /* line 27, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .uk-form legend {
     color: #fff;
     font-size: 1em;
     padding-bottom: 0;
-    margin-left: 11%; }
-    /* line 31, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
+    margin-left: 5%; }
+    /* line 32, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
     footer .uk-form legend:after {
       border: none; }
-  /* line 35, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
+  /* line 36, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropfooter */
   footer .uk-form .uk-button {
     background: #1dada5;
     color: #fff;
