@@ -21,6 +21,8 @@
     <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
     <meta name="msapplication-TileColor" content="#21c4c2">
     <meta name="msapplication-TileImage" content="img/favicons/mstile-144x144.png">
+    <meta name="description" content="Bio-pharmaceutical company using breakthrough technology to create the CS-6
+family of drugs to selectively kill cancer stem cells, without side effects.">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bower_components/uikit/css/mystyle.css">
@@ -37,7 +39,7 @@
     <div class="social-bar uk-vertical-align">
       <div class="share-icons uk-vertical-align-middle uk-grid uk-width-1-1">
         <span class="share-wrap uk-width-1-2">
-          <a href="http://www.nasdaq.com/symbol/nvgn/sec-filings" target="_blank"><img src="img/nasdaq.svg" class="nasdaq-top">
+          <a href="http://www.nasdaq.com/symbol/nvgn" target="_blank"><img src="img/nasdaq.svg" class="nasdaq-top">
             <a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank"><img src="img/ASX.svg" class="asx-top "></a>
             </span>
           <span class="social-wrap uk-width-1-2">
@@ -51,7 +53,7 @@
       <nav class="uk-navbar uk-navbar-attached" data-uk-sticky>
         <a class="logo uk-navbar-brand" href="index.html"><img src="img/novogen-logo.svg" alt="Novogen Logo with white writing on dark background"></a>
         <ul class="uk-navbar-nav uk-navbar-flip uk-hidden-small">
-          <li class="menu-item" data-uk-dropdown><a href="about.html">About</a>
+          <li class="menu-item" data-uk-dropdown><a href="#">About</a>
             <div class="long-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
                 <li><a href="history.html">History</a></li>
@@ -77,12 +79,12 @@
           <li class="menu-item" data-uk-dropdown><a href="investors.html">Investors</a>
             <div class="long-list uk-dropdown uk-dropdown-navbar">
               <ul class="uk-nav uk-nav-navbar">
-                <li><a href="">LATEST PRESENTATIONS</a></li>
+                <li><a href="latest-presentations.html">LATEST PRESENTATIONS</a></li>
                 <li><a href="media.html">MEDIA</a></li>
                 <li><a href="news.html">NEWS</a></li>
-                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li>
-                <li><a href="">CORPORATE GOVERNANCE</a></li>
-                <li><a href="">SHARE PRICE</a></li>
+                <li><a href="meip.html">MEIP IN-SPECIE DISTRIBUTION</a></li>
+                <li><a href="corporate-governance.html">CORPORATE GOVERNANCE</a></li>
+                <li><a href="shares.html">SHARE PRICE</a></li>
                 <li><a href="sec.html">SEC FILINGS</a></li>
                 <li><a href="asx.html">ASX ANNOUNCEMENTS</a></li>
                 <li><a href="annual-reports.html">ANNUAL REPORTS</a></li>
@@ -117,28 +119,28 @@
               <a href="programs.html">PIPELINE</a>
               <ul class="uk-nav uk-subnav">
                <li><a href="programs.html">PIPELINE PAGE</a></li><br>
-                <li><a href="">SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li><br>
-                <li><a href="">ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li><br>
-                <li><a href="">CANTX PROGRAM</a></li><br>
-                <li><a href="">PROJECT JACOB HOPE</a></li><br>
+                <li><a href="#sbp-box" data-uk-modal>SUPER-BENZOPYRAN DRUG TECHNOLOGY</a></li><br>
+                <li><a href="#anti-box" data-uk-modal>ANTI-TROPOMYOSINS DRUG TECHNOLOGY</a></li><br>
+                <li><a href="#cantx-box" data-uk-modal>CANTX PROGRAM</a></li><br>
+                <li><a href="#jacob-box" data-uk-modal>PROJECT JACOB HOPE</a></li><br>
               </ul>
             </li>
             <li class="uk-parent">
               <a href="#">INVESTORS</a>
               <ul class="uk-nav uk-subnav">
-               <li><a href="">INVESTORS PAGE</a></li><br>
-                <li><a href="">LATEST PRESENTATIONS</a></li><br>
+<!--               <li><a href="">INVESTORS PAGE</a></li><br>-->
+                <li><a href="latest-presentations.html">LATEST PRESENTATIONS</a></li><br>
                 <li><a href="media.html">MEDIA</a></li><br>
                 <li><a href="news.html">NEWSLETTERS</a></li><br>
-                <li><a href="">MEIP IN-SPECIE DISTRIBUTION</a></li><br>
-                <li><a href="">CORPORATE GOVERNANCE</a></li><br>
-                <li><a href="">SHARE PRICE</a></li><br>
+                <li><a href="meip.html">MEIP IN-SPECIE DISTRIBUTION</a></li><br>
+                <li><a href="corporate-governance.html">CORPORATE GOVERNANCE</a></li><br>
+                <li><a href="shares.html">SHARE PRICE</a></li><br>
                 <li><a href="sec.html">SEC FILINGS</a></li><br>
                 <li><a href="asx.html">ASX FILINGS</a></li><br>
                 <li><a href="annual-reports.html">ANNUAL REPORTS</a></li>
                 <ul>
-                  <li><a href="" target="_blank">ASX</a></li>
-                  <li><a href="" target="_blank">Nasdaq</a></li>
+                  <li><a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank">ASX</a></li>
+                  <li><a href="http://www.nasdaq.com/symbol/nvgn" target="_blank">Nasdaq</a></li>
                 </ul>
                 </li>
           </ul>
@@ -290,7 +292,11 @@
 <div id="fifth-box" class="overflow uk-modal">
     <div class="uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
       <a class="uk-modal-close uk-close"></a>
+     <div class="calendarWrapper">
+     <h2>Novogen Event Calendar</h2>
+      <p>This is a list of Novogen's current and upcomming events. We will be continually updating this calendar so be sure to check this calendar regularly or sign up to our mailing list to stay informed</p>
       <iframe src="https://www.google.com/calendar/embed?src=i76uengmvularhqggio8nl2r68%40group.calendar.google.com&ctz=Australia/Brisbane" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
     </div>
   </div>
 
@@ -339,7 +345,7 @@
       <div class="footer-links uk-width-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
         <ul class="uk-list">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a><li>
+          <li><a href="">About</a><li>
           <li><a href="#">Pipeline</a></li>
           <li><a href="#">Investors</a></li>
         </ul>
