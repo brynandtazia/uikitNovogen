@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "sbp.css",
+  "sources": [
+    "sbp.scss"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EACE,OAAO;EACP,eAAe;;;AAGjB;EACE,OAAO;EACP,aAAa;EACb,cAAc;EACd,YAAY;EAEZ;IANF;MAOI,OAAO;;;AAIX;EACE,OAAO;EACP,eAAe;;;AAGjB;EACE,OAAO;EACP,WAAW;EACX,aAAa;EACb,cAAc;EACd,YAAY",
+  "sourceRoot": ""
+}

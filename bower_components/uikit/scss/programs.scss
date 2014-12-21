@@ -210,7 +210,7 @@
       img{
         height: 100%;
       }
-      .section-one, .section-two, .section-three,.section-four,.section-five,.section-six,.section-seven,.section-eight,.section-nine,.section-ten{
+      .section-one, .section-two, .section-three,.section-four,.section-six,.section-seven,.section-eight,.section-nine,.section-ten{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -222,13 +222,7 @@
           height: 60%;
           width: 100%;
         }
-        .jacob-progress{
-          display: flex;
-          background: $aqua;
-          height: 20%;
-          width: 80%;
 
-        }
          .autoimmune-progress, .regenerative-progress{
            display: flex;
            align-items: center;
@@ -633,3 +627,19 @@
     }
   }
 }
+ .neuro-progress,.muscular-progress,.lysosomal-progress{
+          display: flex;
+           align-items: center;
+        justify-content: flex-start;
+        }
+        .section-five{
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+        }
+        .jacob-progress{
+          background: $aqua;
+          height: 15%;
+          width: 80%;
+
+        }

@@ -6,7 +6,7 @@
   }
 }
 .uk-slideshow{
-  max-height: 200px;
+  max-height: 260px;
   background-size: contain;
   @media screen and(min-width: 600px){
     max-height: 260px;
@@ -19,7 +19,7 @@
   h3{
     font-family: $googlefont;
   @media screen and (min-width: 680px){
-    font-size: 1.4em;
+    font-size: 1.6em;
     }
   }
   h4{
@@ -30,27 +30,48 @@
     font-size: 1.2em;
     }
     @media screen and (min-width: 680px){
-    font-size: 1.3em;
+    font-size: 1.4em;
     }
   }
 
 }
 
-.slideshow-wrap{
+.slideshow-wrap, .slideshow-wrap-two{
   .caption-text{
   width: 80%;
     max-width: 800px;
-    height: 200px;
+//    height: 200px;
     margin: auto;
+    h3{
+    font-size: 1rem;
+      @media screen and (min-width: 680px){
+    font-size: 1.3em;
+    }
+    }
+    h4{
+    font-size: 1rem;
+      @media screen and (min-width: 680px){
+    font-size: 1.3em;
+    }
+    }
+    @media screen and(min-width: 700px){
+    height: 200px;
+    }
   }
 }
 
 .slideshow-wrap-two{
   background: $aqua;
-  height: 200px;
+  height: 260px;
+  @media screen and(min-width: 800px){
+    height: 200px;
+    }
   .uk-slideshow{
     li{
-      height: 200px;
+      height: 260px;
+      @media screen and(min-width: 800px){
+    height: 200px;
+    }
     }
   }
   .quotes{
