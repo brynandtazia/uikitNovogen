@@ -8565,7 +8565,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         max-height: 230px; } }
   /* line 109, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .slideshow-wrap-two .quotes {
-    padding-top: 20px; }
+    padding-top: 0px; }
     /* line 111, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
     .slideshow-wrap-two .quotes em {
       color: rgba(255, 255, 255, 0.8); }
