@@ -9811,7 +9811,22 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
 /* line 34, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
 .history-body {
   margin-bottom: 40px; }
-  /* line 37, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 36, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  .history-body .structure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px; }
+  /* line 45, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  .history-body h3 {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #a11d29;
+    text-transform: uppercase;
+    margin-top: 20px; }
+  /* line 54, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .history-body p {
     margin-top: 20px;
     width: 90%;
@@ -9823,10 +9838,11 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         font-size: 1.3rem;
         line-height: 1.5rem; } }
 
-/* line 49, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+/* line 66, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
 .aqua-text {
-  margin-bottom: 40px; }
-  /* line 51, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  margin-bottom: 40px;
+  color: #1dada5; }
+  /* line 69, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .aqua-text p {
     margin-top: 20px;
     width: 90%;
@@ -9839,10 +9855,10 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         font-size: 1.3rem;
         line-height: 1.5rem; } }
 
-/* line 64, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+/* line 82, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
 .history-last {
   margin-bottom: 40px; }
-  /* line 67, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 85, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .history-last p {
     margin-top: 20px;
     width: 90%;
@@ -9853,6 +9869,18 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       .history-last p {
         font-size: 1.3rem;
         line-height: 1.5rem; } }
+
+/* line 97, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+.inset {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 101, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  .inset .spacer {
+    margin-right: 10px; }
+  /* line 104, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  .inset i {
+    margin-left: -20px; }
 
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/annual */
 .annual-top {
