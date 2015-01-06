@@ -33,6 +33,10 @@
 }
 .history-body{
       margin-bottom: 40px;
+  font-family: $googlefont;
+  .highlight{
+    background: rgba(29,173,165,.2);
+  }
   .structure{
      margin-left: auto;
     margin-right: auto;
@@ -47,7 +51,7 @@ h3{
    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    color: $red;
+    color: $feature-red;
   text-transform: uppercase;
   margin-top: 20px;
 }
