@@ -9813,15 +9813,18 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   margin-bottom: 40px;
   font-family: 'Raleway', sans-serif; }
   /* line 37, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  .history-body a {
+    color: #D05; }
+  /* line 40, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .history-body .highlight {
     background: rgba(29, 173, 165, 0.2); }
-  /* line 40, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 43, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .history-body .structure {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     max-width: 1000px; }
-  /* line 49, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 52, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .history-body h3 {
     width: 90%;
     max-width: 1200px;
@@ -9830,7 +9833,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     color: #D05;
     text-transform: uppercase;
     margin-top: 20px; }
-  /* line 58, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 61, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .history-body p {
     margin-top: 20px;
     width: 90%;
@@ -9842,11 +9845,11 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         font-size: 1.3rem;
         line-height: 1.5rem; } }
 
-/* line 70, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+/* line 73, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
 .aqua-text {
   margin-bottom: 40px;
   color: #1dada5; }
-  /* line 73, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 76, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .aqua-text p {
     margin-top: 20px;
     width: 90%;
@@ -9859,10 +9862,10 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         font-size: 1.3rem;
         line-height: 1.5rem; } }
 
-/* line 86, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+/* line 89, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
 .history-last {
   margin-bottom: 40px; }
-  /* line 89, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 92, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .history-last p {
     margin-top: 20px;
     width: 90%;
@@ -9874,15 +9877,15 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         font-size: 1.3rem;
         line-height: 1.5rem; } }
 
-/* line 101, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+/* line 104, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
 .inset {
   width: 80%;
   margin-left: auto;
   margin-right: auto; }
-  /* line 105, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 108, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .inset .spacer {
     margin-right: 10px; }
-  /* line 108, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
+  /* line 111, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/history */
   .inset i {
     margin-left: -20px; }
 

@@ -34,6 +34,9 @@
 .history-body{
       margin-bottom: 40px;
   font-family: $googlefont;
+  a{
+   color: $feature-red;
+  }
   .highlight{
     background: rgba(29,173,165,.2);
   }
