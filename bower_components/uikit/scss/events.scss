@@ -1,0 +1,19 @@
+.event-title{
+  margin-top: 10px;
+  a{
+  color: $aqua;
+  }
+  margin-left: 10px;
+  margin-right: 5px;
+@media screen and(min-width: 600px){
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  h2{
+    color: $red;
+    font-family: $googlefont;
+  }
+  h3, h4{
+  font-family: $googlefont;
+  }
+}
