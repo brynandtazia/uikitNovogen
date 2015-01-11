@@ -8544,12 +8544,12 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   .second-show h2, .second-show h3, .second-show h4, .second-show p {
     color: #fff;
     font-family: 'Raleway', sans-serif;
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding-left: 20px;
+    padding-right: 20px; }
     @media screen and (min-width: 600px) {
       .second-show h2, .second-show h3, .second-show h4, .second-show p {
-        padding-left: 20px;
-        padding-right: 20px; } }
+        padding-left: 30px;
+        padding-right: 30px; } }
   /* line 96, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropslideshows */
   .second-show .slide-spacing {
     padding-bottom: 20px;
@@ -8910,7 +8910,6 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   /* line 160, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .dark-pre-programs p {
     color: #5f5f5f;
-    text-transform: uppercase;
     max-width: 90%;
     margin: auto;
     text-align: center;
@@ -8922,7 +8921,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       .dark-pre-programs p {
         font-size: 1.1rem; } }
 
-/* line 176, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 175, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .pipeline-wrap {
   width: 100%;
   display: flex;
@@ -8938,13 +8937,13 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   @media screen and (min-width: 1000px) {
     .pipeline-wrap {
       font-size: 1.1rem; } }
-  /* line 191, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 190, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .discovery {
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-grow: 1; }
-    /* line 196, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 195, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .discovery .discovery-header {
       display: flex;
       align-items: center;
@@ -8955,19 +8954,19 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       border-left: 1px solid #fff;
       border-right: 1px solid #fff;
       text-transform: uppercase; }
-    /* line 207, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 206, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .discovery .discovery-body-wrap {
       border-left: 1px solid #5f5f5f;
       height: 100%; }
-      /* line 210, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 209, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .discovery .discovery-body-wrap img {
         height: 100%; }
-      /* line 213, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 212, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .discovery .discovery-body-wrap .section-one, .pipeline-wrap .discovery .discovery-body-wrap .section-two, .pipeline-wrap .discovery .discovery-body-wrap .section-three, .pipeline-wrap .discovery .discovery-body-wrap .section-four, .pipeline-wrap .discovery .discovery-body-wrap .section-six, .pipeline-wrap .discovery .discovery-body-wrap .section-seven, .pipeline-wrap .discovery .discovery-body-wrap .section-eight, .pipeline-wrap .discovery .discovery-body-wrap .section-nine, .pipeline-wrap .discovery .discovery-body-wrap .section-ten {
         display: flex;
         align-items: center;
         justify-content: center; }
-        /* line 217, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+        /* line 216, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
         .pipeline-wrap .discovery .discovery-body-wrap .section-one .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-one .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-one .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-one .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-one .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-one .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-one .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .lysosomal-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .cantrixil-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .trx-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .trilexium-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .atm-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .neuro-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .muscular-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .lysosomal-progress {
           display: flex;
           align-items: center;
@@ -8975,20 +8974,20 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
           background: #1dada5;
           height: 60%;
           width: 100%; }
-        /* line 226, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+        /* line 225, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
         .pipeline-wrap .discovery .discovery-body-wrap .section-one .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-one .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-two .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-three .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-four .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-six .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-seven .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-eight .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-nine .regenerative-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .autoimmune-progress, .pipeline-wrap .discovery .discovery-body-wrap .section-ten .regenerative-progress {
           display: flex;
           align-items: center;
           background: #1dada5;
           height: 45%;
           width: 80%; }
-  /* line 237, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 236, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .preclinical {
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-grow: 1; }
-    /* line 242, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 241, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .preclinical .preclinical-header {
       display: flex;
       align-items: center;
@@ -8998,46 +8997,46 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       color: #fff;
       border-right: 1px solid #fff;
       text-transform: uppercase; }
-    /* line 253, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 252, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .preclinical .preclinical-body-wrap {
       border-left: 1px solid #5f5f5f;
       height: 100%; }
-      /* line 256, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 255, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .preclinical .preclinical-body-wrap img {
         height: 100%; }
-      /* line 259, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 258, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .preclinical .preclinical-body-wrap .section-one, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight {
         display: flex;
         align-items: center;
         justify-content: flex-start; }
-        /* line 263, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+        /* line 262, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
         .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .atm-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .atm-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .atm-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .atm-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .atm-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .atm-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .atm-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .cantrixil-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .trx-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .trilexium-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .atm-progress {
           display: flex;
           align-items: center;
           background: #1dada5;
           height: 60%;
           width: 80%; }
-        /* line 270, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+        /* line 269, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
         .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .lysosomal-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .lysosomal-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .lysosomal-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .lysosomal-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .lysosomal-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .lysosomal-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .lysosomal-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .neuro-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .muscular-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .lysosomal-progress {
           display: flex;
           align-items: center;
           background: #1dada5;
           height: 60%;
           width: 30%; }
-        /* line 277, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+        /* line 276, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
         .pipeline-wrap .preclinical .preclinical-body-wrap .section-one .jacob-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-two .jacob-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-three .jacob-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-four .jacob-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-five .jacob-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-six .jacob-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-seven .jacob-progress, .pipeline-wrap .preclinical .preclinical-body-wrap .section-eight .jacob-progress {
           display: flex;
           align-items: center;
           background: #1dada5;
           height: 0;
           width: 0; }
-  /* line 288, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 287, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .phase-one {
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-grow: 1; }
-    /* line 293, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 292, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .phase-one .phase-one-header {
       display: flex;
       align-items: center;
@@ -9047,17 +9046,17 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       color: #fff;
       border-right: 1px solid #fff;
       text-transform: uppercase; }
-    /* line 304, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 303, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .phase-one .phase-one-body-wrap {
       border-left: 1px solid #5f5f5f;
       height: 100%; }
-  /* line 309, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 308, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .phase-two {
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-grow: 1; }
-    /* line 314, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 313, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .phase-two .phase-two-header {
       display: flex;
       align-items: center;
@@ -9067,17 +9066,17 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       color: #fff;
       text-transform: uppercase;
       border-right: 1px solid #fff; }
-    /* line 325, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 324, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .phase-two .phase-two-body-wrap {
       border-left: 1px solid #5f5f5f;
       height: 100%; }
-  /* line 330, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 329, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .phase-three {
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-grow: 1; }
-    /* line 335, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 334, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .phase-three .phase-three-header {
       display: flex;
       align-items: center;
@@ -9087,17 +9086,17 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       color: #fff;
       border-right: 1px solid #fff;
       text-transform: uppercase; }
-    /* line 346, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 345, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .phase-three .phase-three-body-wrap {
       border-left: 1px solid #5f5f5f;
       height: 100%; }
-  /* line 351, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 350, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .commencement {
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-grow: 1; }
-    /* line 356, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 355, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .commencement .commencement-header {
       display: flex;
       align-items: center;
@@ -9106,12 +9105,12 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       background: #1dada5;
       color: #fff;
       text-transform: uppercase; }
-    /* line 367, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 366, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .commencement .commencement-body-wrap {
       border-left: 1px solid #5f5f5f;
       border-right: 1px solid #5f5f5f;
       height: 100%; }
-  /* line 374, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 373, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .therapeutic {
     align-items: center;
     justify-content: center;
@@ -9121,7 +9120,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     align-content: stretch;
     flex-grow: 2;
     text-transform: uppercase; }
-    /* line 383, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 382, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .therapeutic .therapeutic-header {
       display: flex;
       align-items: center;
@@ -9130,12 +9129,12 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       background: #1dada5;
       border-right: 1px solid #fff;
       text-transform: uppercase; }
-    /* line 392, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 391, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .therapeutic .therapeutic-body-wrap {
       display: flex;
       flex-direction: column;
       border-left: 1px solid #5f5f5f; }
-      /* line 396, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 395, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .therapeutic .therapeutic-body-wrap .oncology {
         display: flex;
         align-items: center;
@@ -9144,7 +9143,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         background: #fff;
         color: #363636;
         border-bottom: 1px solid #363636; }
-      /* line 405, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 404, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .therapeutic .therapeutic-body-wrap .degenerative {
         display: flex;
         align-items: center;
@@ -9154,12 +9153,12 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         color: #363636;
         border-bottom: 1px solid #363636;
         text-align: center; }
-  /* line 417, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 416, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .pipeline-wrap .program {
     flex-direction: column;
     background: #fff;
     flex-grow: 2; }
-    /* line 421, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 420, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .program .program-header {
       display: flex;
       align-items: center;
@@ -9168,88 +9167,88 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
       background: #1dada5;
       color: #fff;
       text-transform: uppercase; }
-    /* line 430, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 429, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .pipeline-wrap .program .program-body-wrap {
       display: flex;
       flex-direction: column;
       border-left: 1px solid #5f5f5f;
       text-transform: uppercase; }
-      /* line 435, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 434, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .cantrixil {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 36px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 442, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 441, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .trx {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 36px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 449, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 448, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .trilexium {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 36px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 456, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 455, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .atm {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 36px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 463, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 462, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .stem {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 147px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 470, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 469, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .neurodegenerative {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 36px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 477, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 476, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .muscular {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 36px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 484, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 483, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .lysosomal {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 36px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 491, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 490, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .autoimmune-disease {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 50px;
         border-bottom: 1px solid #5f5f5f; }
-      /* line 498, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 497, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .pipeline-wrap .program .program-body-wrap .regenerative-disease {
         display: flex;
         align-items: center;
         justify-content: center;
         height: 50px; }
 
-/* line 507, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 506, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .section-one, .section-two, .section-three, .section-four {
   height: 36px;
   border-bottom: 1px solid #5f5f5f; }
 
-/* line 514, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 513, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .after-pipeline {
   display: flex;
   flex-direction: column;
@@ -9262,41 +9261,41 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   @media screen and (min-width: 600px) {
     .after-pipeline {
       height: 300px; } }
-  /* line 526, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 525, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .after-pipeline .white-divider {
     height: 4px;
     background: #fff;
     width: 48%;
     max-width: 600px; }
-  /* line 532, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 531, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .after-pipeline h3 {
     color: #fff;
     text-align: center;
     width: 80%;
     font-family: 'Raleway', sans-serif; }
 
-/* line 539, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 538, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .section-five {
   height: 147px;
   border-bottom: 1px solid #5f5f5f; }
-  /* line 542, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 541, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .section-five img {
     height: 25%; }
 
-/* line 547, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 546, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .programs-small {
   background: #5f5f5f;
   font-family: 'Raleway', sans-serif; }
-  /* line 550, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 549, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .programs-small .program-small-oncology {
     background: #fff;
     text-transform: uppercase; }
-    /* line 551, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 550, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .program-small-oncology .oncology-heading {
       border-bottom: 1px solid #5f5f5f;
       background: #5f5f5f;
       color: #fff; }
-    /* line 558, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 557, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .program-small-oncology h1 {
       text-transform: uppercase;
       text-align: center;
@@ -9310,29 +9309,29 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
           font-size: 1.8rem;
           line-height: 2.4rem;
           padding-top: 15px; } }
-    /* line 572, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 571, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .program-small-oncology h4 {
       text-transform: uppercase; }
-    /* line 575, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 574, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .program-small-oncology ul {
       margin-top: 0; }
-    /* line 579, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 578, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .program-small-oncology li {
       border-bottom: 1px solid #5f5f5f;
       height: 40px; }
-      /* line 582, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+      /* line 581, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
       .programs-small .program-small-oncology li h4 {
         margin-left: 10%;
         margin-top: 8px; }
-  /* line 588, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+  /* line 587, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
   .programs-small .other-fields {
     background: #5f5f5f;
     text-transform: uppercase; }
-    /* line 591, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 590, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .other-fields .other-fields-heading {
       border-bottom: 1px solid #fff;
       height: 100px; }
-    /* line 595, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 594, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .other-fields h1 {
       text-transform: uppercase;
       text-align: center;
@@ -9345,40 +9344,40 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
           font-size: 1.8rem;
           line-height: 2.4rem;
           padding-top: 15px; } }
-    /* line 608, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 607, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .other-fields h4 {
       text-transform: uppercase;
       margin-left: 10%;
       margin-top: 0px;
       padding-top: 10px;
       color: #444; }
-    /* line 615, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 614, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .other-fields ul {
       margin-bottom: 0;
       margin-top: 0px;
       height: 50px;
       background: #fff;
       color: #444; }
-    /* line 622, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+    /* line 621, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
     .programs-small .other-fields li {
       height: 40px;
       color: #444;
       margin-top: 0;
       margin-bottom: 0; }
 
-/* line 630, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 629, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .neuro-progress, .muscular-progress, .lysosomal-progress {
   display: flex;
   align-items: center;
   justify-content: flex-start; }
 
-/* line 635, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 634, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .section-five {
   display: flex;
   align-items: center;
   justify-content: flex-start; }
 
-/* line 640, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
+/* line 639, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/programs */
 .jacob-progress {
   background: #1dada5;
   height: 15%;
@@ -9435,17 +9434,29 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
           margin-top: 20px;
           margin-left: -40px;
           width: 430px; } }
-    /* line 53, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+    /* line 51, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+    .team-member .team-topline-wrap .oncology-team-topline {
+      height: 2px;
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 20px;
+      background: #1dada5; }
+      @media screen and (min-width: 600px) {
+        .team-member .team-topline-wrap .oncology-team-topline {
+          margin-top: 20px;
+          margin-left: 0px;
+          width: 430px; } }
+    /* line 65, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
     .team-member .team-topline-wrap .team-heading h2 {
       font-family: 'Raleway', sans-serif;
       text-transform: uppercase;
       color: #5f5f5f; }
-    /* line 58, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+    /* line 70, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
     .team-member .team-topline-wrap .team-heading h4 {
       font-family: 'Raleway', sans-serif;
       text-transform: uppercase;
       color: #5f5f5f; }
-  /* line 65, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+  /* line 77, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
   .team-member .team-box {
     display: inline-block;
     height: 200px;
@@ -9453,10 +9464,10 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     background: #ebebeb;
     float: right;
     margin: 20px 20px 60px 20px; }
-    /* line 72, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+    /* line 84, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
     .team-member .team-box i {
       font-size: 2.4rem; }
-  /* line 76, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+  /* line 88, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
   .team-member .team-bottom-line {
     height: 2px;
     width: 95%;
@@ -9467,14 +9478,14 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         width: 610px;
         margin-right: 0; } }
 
-/* line 87, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+/* line 99, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
 .team-text {
   padding-left: 22px;
   padding-top: 16px;
   padding-bottom: 20px;
   max-width: 90%; }
 
-/* line 93, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+/* line 105, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
 .double-lines {
   border-top: 2px solid #5f5f5f;
   border-bottom: 2px solid #5f5f5f;
@@ -9484,7 +9495,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   margin-right: auto;
   margin-bottom: 20px; }
 
-/* line 104, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+/* line 116, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
 .profile-right {
   display: flex;
   flex-direction: column-reverse; }
@@ -9495,16 +9506,16 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   @media screen and (min-width: 766px) {
     .profile-right {
       justify-content: space-between; } }
-  /* line 114, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+  /* line 126, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
   .profile-right .profile-box {
     height: 200px;
     width: 200px;
     background: #ebebeb;
     margin: 20px 20px 0px 20px; }
-    /* line 120, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+    /* line 132, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
     .profile-right .profile-box i {
       font-size: 2.4rem; }
-  /* line 124, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+  /* line 136, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
   .profile-right .profile-heading {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -9525,17 +9536,17 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         @media screen and (min-width: 1280px) {
           .profile-right .profile-heading {
             margin-left: 20%; } } }
-    /* line 144, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+    /* line 156, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
     .profile-right .profile-heading h2 {
       font-family: 'Raleway', sans-serif;
       text-transform: uppercase;
       color: #5f5f5f; }
-    /* line 149, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+    /* line 161, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
     .profile-right .profile-heading h4 {
       font-family: 'Raleway', sans-serif;
       text-transform: uppercase;
       color: #5f5f5f; }
-  /* line 155, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+  /* line 167, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
   .profile-right .profile-img {
     height: 200px;
     margin: 0;
@@ -9547,7 +9558,7 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
         margin-left: 0px;
         margin-bottom: 20px; } }
 
-/* line 175, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
+/* line 187, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/about */
 .profile-text {
   padding-left: 20px;
   padding-right: 20px;

@@ -398,6 +398,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bcblog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bcblog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/blog.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -5909,6 +5918,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/CristynH.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91925,
+		"inputAbbreviatedPath": "\/img\/CristynH.png",
+		"outputAbbreviatedPath": "\/img\/CristynH.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/db.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6224,6 +6244,17 @@
 		"initialSize": 144772,
 		"inputAbbreviatedPath": "\/img\/js.png",
 		"outputAbbreviatedPath": "\/img\/js.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/kl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94695,
+		"inputAbbreviatedPath": "\/img\/kl.png",
+		"outputAbbreviatedPath": "\/img\/kl.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -86,11 +86,11 @@
       color: #fff;
       font-family: $googlefont;
 //      font-size: .9rem;
-      padding-left: 10px;
-      padding-right: 10px;
-      @media screen and (min-width: 600px){
       padding-left: 20px;
       padding-right: 20px;
+      @media screen and (min-width: 600px){
+      padding-left: 30px;
+      padding-right: 30px;
       }
   }
 .slide-spacing{
