@@ -8314,6 +8314,22 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
   -webkit-animation-duration: 0.04s;
   animation-duration: 0.04s; }
 
+/* ========================================================================
+   Component: Switcher
+ ========================================================================== */
+/* line 15, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/core/switcher */
+.uk-switcher {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/*
+ * Items
+ */
+/* line 25, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/core/switcher */
+.uk-switcher > *:not(.uk-active) {
+  display: none; }
+
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/dropnav */
 .uk-navbar {
   background: #fff;
@@ -9697,7 +9713,16 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
 
 /* line 15, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/blog */
 .uk-article-title {
-  font-size: 1rem; }
+  font-size: 1.2rem; }
+  @media screen and (min-width: 400px) {
+    .uk-article-title {
+      font-size: 1.4rem; } }
+  @media screen and (min-width: 600px) {
+    .uk-article-title {
+      font-size: 1.6rem; } }
+  @media screen and (min-width: 800px) {
+    .uk-article-title {
+      font-size: 1.8rem; } }
 
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
 .news-top {

@@ -13,5 +13,14 @@
 }
 
 .uk-article-title{
-font-size:  1rem;
+font-size:  1.2rem;
+  @media screen and(min-width: 400px){
+  font-size: 1.4rem;
+  }
+  @media screen and(min-width: 600px){
+  font-size: 1.6rem;
+  }
+  @media screen and(min-width: 800px){
+  font-size: 1.8rem;
+  }
 }
