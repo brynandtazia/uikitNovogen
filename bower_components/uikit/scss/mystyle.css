@@ -9724,6 +9724,10 @@ a.uk-thumbnail:hover, a.uk-thumbnail:focus {
     .uk-article-title {
       font-size: 1.8rem; } }
 
+/* line 27, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/blog */
+a {
+  color: #1dada5; }
+
 /* line 1, /Users/brynhumphreys/Desktop/uikitNovogen/bower_components/uikit/scss/news */
 .news-top {
   height: 160px;
