@@ -6,13 +6,22 @@
           <li><a href="about.html">About</a><li>
           <li><a href="programs.html">Pipeline</a></li>
           <li><a href="investors.html">Investors</a></li>
+          <li>
+          <a href="#terms-box" data-uk-modal ><li>Terms &amp; Conditions</li></a>
 
+</li>
         </ul>
       </div>
       <ul class="shares-footer uk-list uk-list-space uk-hidden-small uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
         <li><a href="http://www.asx.com.au/asx/research/companyInfo.do?by=asxCode&asxCode=NRT" target="_blank"><img src="img/ASX.svg"></a></li>
         <li><a href="http://www.nasdaq.com/symbol/nvgn/sec-filings" target="_blank"><img src="img/nasdaq.svg"></a></li>
       </ul>
+           <div id="terms-box" class="overflow uk-modal">
+      <div class="overflow uk-modal-dialog uk-modal-dialog-large uk-height-viewport">
+        <a class="uk-modal-close uk-close"></a>
+        <iframe src="pdf/termsConditions.pdf" class="pdf"></iframe>
+      </div>
+    </div>
       <div class="uk-width-1-1 uk-width-small-1-2 uk-width-medium-1-4  uk-vertical-align uk-vertical-align-middle">
         <!--
 <form class="uk-form">
@@ -34,7 +43,8 @@
           //<![CDATA[
           var submitcount83042 = 0;function checkWholeForm83042(theForm){var why = "";if (theForm.EmailAddress) why += checkEmail(theForm.EmailAddress.value); if(why != ""){alert(why);return false;}if(submitcount83042 == 0){submitcount83042++;theForm.submit();return false;}else{alert("Form submission is in progress.");return false;}}
           //]]>
-          </script></form>
+          </script>
+          </form>
 
 
 

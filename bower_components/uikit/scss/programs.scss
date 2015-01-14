@@ -1,15 +1,16 @@
 .programs-hero{
-  height: 260px;
+//  height: 260px;
   background: url("../../../img/DNA1.jpg");
   background-size: cover;
   padding-top: 10px;
+  padding-bottom: 10px;
   @media screen and (min-width: 680px){
     height: 300px;
     padding-top: 30px;
   }
   .hero-overlay{
     background: rgba(0, 0, 0, .6);
-    height: 220px;
+    height: 90%;
     width: 90%;
     margin-left: 5%;
     color: #fff;
@@ -515,12 +516,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 400px;
+//  height: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: $aqua;
   color: #fff;
   font-family: $googlefont;
   @media screen and(min-width: 600px){
-    height: 300px;
+//    height: 300px;
   }
   .white-divider{
     height: 4px;
@@ -589,7 +592,7 @@
   text-transform: uppercase;
    .other-fields-heading{
     border-bottom: 1px solid #fff;
-     height: 100px;
+//     height: 100px;
     }
     h1{
     text-transform: uppercase;
@@ -597,7 +600,7 @@
       color: #fff;
       font-size: 1.4rem;
       line-height: 1.9rem;
-      padding-top: 15px;
+      padding-top: 0px;
       @media screen and(min-width: 600px){
       font-size: 1.8rem;
         line-height: 2.4rem;
