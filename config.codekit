@@ -226,6 +226,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets not for site\/images and licences\/dreamstime_l_29533278.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.92259e+06,
+		"inputAbbreviatedPath": "\/assets not for site\/images and licences\/dreamstime_l_29533278.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/images and licences\/dreamstime_l_29533278.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/images and licences\/dreamstime_l_34089965.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.74452e+06,
+		"inputAbbreviatedPath": "\/assets not for site\/images and licences\/dreamstime_l_34089965.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/images and licences\/dreamstime_l_34089965.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/images and licences\/stem-cell-163711.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459665,
+		"inputAbbreviatedPath": "\/assets not for site\/images and licences\/stem-cell-163711.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/images and licences\/stem-cell-163711.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets not for site\/justine.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -332,6 +365,17 @@
 		"initialSize": 296,
 		"inputAbbreviatedPath": "\/assets not for site\/presentation-green.png",
 		"outputAbbreviatedPath": "\/assets not for site\/presentation-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets not for site\/stem-cell-163711.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 459665,
+		"inputAbbreviatedPath": "\/assets not for site\/stem-cell-163711.jpg",
+		"outputAbbreviatedPath": "\/assets not for site\/stem-cell-163711.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5779,6 +5823,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/header-second-partOLD.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header-second-partOLD.kit",
+		"outputAbbreviatedPath": "\/header-second-partOLD.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/header-zero-part.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header-zero-part.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/header-zero-part.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header-zero-part.kit",
+		"outputAbbreviatedPath": "\/header-zero-part.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/history.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -6542,6 +6613,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/programsOld.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/programsOLD.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/programsOLD.kit",
+		"outputAbbreviatedPath": "\/programsOLD.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
