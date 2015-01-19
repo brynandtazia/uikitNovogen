@@ -523,6 +523,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bower_components\/jquery\/dist\/html5shiv-printshiv.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/html5shiv-printshiv.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/html5shiv-printshiv.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/dist\/html5shiv.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/html5shiv.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/html5shiv.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -540,6 +562,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/dist\/modernizr.custom.99587.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/modernizr.custom.99587.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/modernizr.custom.99587-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/jquery\/dist\/respond.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/respond.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/respond.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -5982,6 +6026,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ASX.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1553,
+		"inputAbbreviatedPath": "\/img\/ASX.png",
+		"outputAbbreviatedPath": "\/img\/ASX.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/atom-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1726,
+		"inputAbbreviatedPath": "\/img\/atom-green.png",
+		"outputAbbreviatedPath": "\/img\/atom-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/barcode.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6066,6 +6132,17 @@
 		"initialSize": 24628,
 		"inputAbbreviatedPath": "\/img\/ch.png",
 		"outputAbbreviatedPath": "\/img\/ch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/contact-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 657,
+		"inputAbbreviatedPath": "\/img\/contact-green.png",
+		"outputAbbreviatedPath": "\/img\/contact-green.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6411,6 +6488,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/LinkedIn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 599,
+		"inputAbbreviatedPath": "\/img\/LinkedIn.png",
+		"outputAbbreviatedPath": "\/img\/LinkedIn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/lm.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6418,6 +6506,149 @@
 		"initialSize": 29869,
 		"inputAbbreviatedPath": "\/img\/lm.png",
 		"outputAbbreviatedPath": "\/img\/lm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/money-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 684,
+		"inputAbbreviatedPath": "\/img\/money-green.png",
+		"outputAbbreviatedPath": "\/img\/money-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/nasdaq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1587,
+		"inputAbbreviatedPath": "\/img\/nasdaq.png",
+		"outputAbbreviatedPath": "\/img\/nasdaq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/neurons-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1726,
+		"inputAbbreviatedPath": "\/img\/neurons-green.png",
+		"outputAbbreviatedPath": "\/img\/neurons-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-article-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 781,
+		"inputAbbreviatedPath": "\/img\/news-article-green.png",
+		"outputAbbreviatedPath": "\/img\/news-article-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-article-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 782,
+		"inputAbbreviatedPath": "\/img\/news-article-red.png",
+		"outputAbbreviatedPath": "\/img\/news-article-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-online-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422,
+		"inputAbbreviatedPath": "\/img\/news-online-green.png",
+		"outputAbbreviatedPath": "\/img\/news-online-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-online-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 423,
+		"inputAbbreviatedPath": "\/img\/news-online-red.png",
+		"outputAbbreviatedPath": "\/img\/news-online-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-read-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 781,
+		"inputAbbreviatedPath": "\/img\/news-read-green.png",
+		"outputAbbreviatedPath": "\/img\/news-read-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-read-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 782,
+		"inputAbbreviatedPath": "\/img\/news-read-red.png",
+		"outputAbbreviatedPath": "\/img\/news-read-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-video-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 516,
+		"inputAbbreviatedPath": "\/img\/news-video-green.png",
+		"outputAbbreviatedPath": "\/img\/news-video-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-video-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 516,
+		"inputAbbreviatedPath": "\/img\/news-video-red.png",
+		"outputAbbreviatedPath": "\/img\/news-video-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-webinar-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422,
+		"inputAbbreviatedPath": "\/img\/news-webinar-green.png",
+		"outputAbbreviatedPath": "\/img\/news-webinar-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/news-webinar-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 422,
+		"inputAbbreviatedPath": "\/img\/news-webinar-red.png",
+		"outputAbbreviatedPath": "\/img\/news-webinar-red.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6433,6 +6664,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/novogen-logosm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2957,
+		"inputAbbreviatedPath": "\/img\/novogen-logosm.png",
+		"outputAbbreviatedPath": "\/img\/novogen-logosm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pGunning.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6440,6 +6682,28 @@
 		"initialSize": 201810,
 		"inputAbbreviatedPath": "\/img\/pGunning.png",
 		"outputAbbreviatedPath": "\/img\/pGunning.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/presentation-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 471,
+		"inputAbbreviatedPath": "\/img\/presentation-green.png",
+		"outputAbbreviatedPath": "\/img\/presentation-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/right-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287,
+		"inputAbbreviatedPath": "\/img\/right-arrow.png",
+		"outputAbbreviatedPath": "\/img\/right-arrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6488,6 +6752,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/stopwatch-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 573,
+		"inputAbbreviatedPath": "\/img\/stopwatch-green.png",
+		"outputAbbreviatedPath": "\/img\/stopwatch-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/structure.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6506,6 +6781,61 @@
 		"initialSize": 1873,
 		"inputAbbreviatedPath": "\/img\/twitter.png",
 		"outputAbbreviatedPath": "\/img\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Twittersm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 925,
+		"inputAbbreviatedPath": "\/img\/Twittersm.png",
+		"outputAbbreviatedPath": "\/img\/Twittersm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/video-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 731,
+		"inputAbbreviatedPath": "\/img\/video-green.png",
+		"outputAbbreviatedPath": "\/img\/video-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/video-red.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 741,
+		"inputAbbreviatedPath": "\/img\/video-red.png",
+		"outputAbbreviatedPath": "\/img\/video-red.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/watch-green.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 649,
+		"inputAbbreviatedPath": "\/img\/watch-green.png",
+		"outputAbbreviatedPath": "\/img\/watch-green.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 940,
+		"inputAbbreviatedPath": "\/img\/youtube.png",
+		"outputAbbreviatedPath": "\/img\/youtube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

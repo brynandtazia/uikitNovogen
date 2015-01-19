@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-gb" dir="ltr">
+<html class="no-js" lang="en-gb" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,6 +25,17 @@
 <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,500" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="bower_components/uikit/fonts/FontAwesome.otf">
 <link rel="stylesheet" href="bower_components/uikit/css/mystyle.css">
+<script src="bower_components/jquery/dist/modernizr.custom.89200.js"></script>
+<!--[if lt IE 9]>
+<script src="bower_components/jquery/dist/html5shiv.min.js"></script>
+<script src="bower_components/jquery/dist/respond.min.js"></script>
+<script>  if (!Modernizr.svg) {
+  $('img[src$=".svg"]').each(function() {
+      $(this).attr('src', $(this).attr('src').replace('.svg', '.png'));
+  });
+}
+</script>
+<![endif]-->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/uikit/js/uikit.min.js"></script>
 <script src="bower_components/uikit/js/core/offcanvas.min.js"></script>
@@ -32,6 +43,7 @@
 <script src="bower_components/uikit/js/components/slideshow-fx.min.js"></script>
 <script src="bower_components/uikit/js/components/cover.min.js"></script>
 <script src="bower_components/uikit/js/components/sticky.min.js"></script>
+<script src="bower_components/jquery/dist/swapimages.js"></script>
 <script>
   (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -267,24 +279,24 @@
             <li>
               <a href="http://www.nasdaq.com/symbol/nvgn" target="_blank">NASDAQ</a>
             </li>
+          </ul>
+        </li>
+        <li class="uk-nav-header">Connect with us</li>
+        <li>
+          <a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a>
+        </li>
       </ul>
-      </li>
-    <li class="uk-nav-header">Connect with us</li>
-    <li>
-      <a href="contact.html"><i class="uk-icon-envelope-o"></i> Contact</a>
-    </li>
-    <li>
-      <a href="https://www.youtube.com/channel/UCzNMflCMfqL-kTzanKU-gDQ" target="_blank"><i class="uk-icon-youtube"></i> YouTube</a>
-    </li>
-    <li>
-      <a href="https://twitter.com/Novogen" target="_blank"><i class="uk-icon-twitter"></i> Twitter</a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/company/novogen" target="_blank"><i class="uk-icon-linkedin"></i> LinkedIn</a>
-    </li>
-    </ul>
+    </div>
   </div>
-</div>
 <div class="annual-top uk-vertical-align">
   <div class="uk-vertical-align-middle">
     <h1>Vision</h1>
@@ -377,6 +389,13 @@
 
   </div>
 </footer>
-
+<!--[if lt IE 9]>
+<script>  if (!Modernizr.svg) {
+  $('img[src$=".svg"]').each(function() {
+      $(this).attr('src', $(this).attr('src').replace('.svg', '.png'));
+  });
+}
+</script>
+<![endif]-->
 </body>
 </html>

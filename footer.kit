@@ -56,6 +56,13 @@
 
   </div>
 </footer>
-
+<!--[if lt IE 9]>
+<script>  if (!Modernizr.svg) {
+  $('img[src$=".svg"]').each(function() {
+      $(this).attr('src', $(this).attr('src').replace('.svg', '.png'));
+  });
+}
+</script>
+<![endif]-->
 </body>
 </html>
