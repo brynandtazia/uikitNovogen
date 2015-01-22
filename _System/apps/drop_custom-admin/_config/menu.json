@@ -1,0 +1,42 @@
+{
+    "menu-first-drop-custom-admin": {
+      "weight": 10001,
+      "title": "WELCOME",
+      "attr": {
+          "href": "/Admin/AppLoader.aspx?client_id=drop-custom-admin"
+      }
+  },
+      "menu-bcam-apps": {
+	    "weight": 600000,
+	    "title": "Apps"
+	  },
+    "menu-bc-api-discovery": {
+    	"parent": "menu-bcam-apps",
+        "weight": 200,
+        "title": "BC API Discovery",
+        "attr" : {
+            "href" : "index.html"
+        }
+    },
+    "menu-webapps": {
+      "weight": 30000,
+      "title": "AP",
+      "visible": true
+        
+  },
+    "menu-reports": {
+        "title": "Customer Reports"
+    },
+    "menu-webapps-posts": {
+        "visible": false,
+        "applyIf": {
+            "menusExist": ["menu-useful_stuff"]
+        }
+    },
+    "menu-webapp-authors": {
+        "visible": true,
+        "applyIf": {
+            "menusExist": ["menu-useful_stuff"]
+        }
+    }
+}

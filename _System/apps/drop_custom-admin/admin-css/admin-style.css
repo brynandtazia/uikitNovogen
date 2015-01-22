@@ -1,0 +1,20 @@
+.helpcontent{
+	padding-left: 10%;
+	padding-right: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content-wrapper {
+	padding-left: 10%;
+	padding-right: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+	
+#help span{
+font-style: italic;
+	font-weight: 400;
+}
+.feature-color {
+	color: #1dada5;
+    font-family: 'Raleway', sans-serif;
+}
