@@ -1,10 +1,6 @@
 footer{
-  padding-top: 40px;
-  height: 280px;
+
   background: $dark;
-  @media screen and (min-width: 480px){
-    height: 180px;
-  }
   .footer-links .uk-list{
     padding-left: 8%;
   }

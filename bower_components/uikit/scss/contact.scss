@@ -113,3 +113,53 @@
 
   }
 }
+.webform-quick{
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  padding-top: 0;
+  label{
+    color: #fff;
+  }
+  input[type="text"]{
+    font-size:1.2rem;
+    font-family: $googlefont;
+    padding-left: 10px;
+  }
+  tr{
+    width: 80%;
+    max-width: 600px;
+    .cat_textbox{
+      width: 100%;
+      max-width: 600px;
+      height: 30px;
+    }
+    .cat_listbox{
+      width: 100%;
+      max-width: 600px;
+      height: 60px;
+      font-family: $googlefont;
+      font-size: 1.4rem;
+      padding-left: 10px;
+    }
+    td{
+      font-family: $googlefont;
+      color: $dark;
+      .uk-button-primary{
+        background: #fff;
+        color: $dark;
+        font-family: $googlefont;
+//        padding: 10px 10px 10px 10px;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        border: none;
+        &:hover{
+        background: $aqua;
+          color: #fff;
+        }
+}
+    }
+  }
+}
