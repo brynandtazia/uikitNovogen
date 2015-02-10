@@ -1,0 +1,80 @@
+{
+  "menu-bcas-apps": {
+    "weight": 600000,
+    "icon": "/_System/apps/bc-meet-the-team/_config/icon.png",
+    "title": "MEET THE TEAM"
+  },
+  "menu-bcas-menu-meet_the_team": {
+    "parent": "menu-bcas-apps",
+    "weight": 20,
+    "title": "Meet the Team",
+        "icon": "/_System/apps/bc-meet-the-team/_config/icon.png",
+    "attr": {
+      "href": "/Admin/AppLoader.aspx?client_id=bc-meet-the-team"
+    }
+  },
+    "menu-webapps": {
+        "title": "CHANGES"
+    },
+		"menu-webapp-first_slide_on_home_page": {
+        "parent": "menu-webapps",
+        "weight": 20000,
+        "title": "SLIDE 1",
+        "icon": "/_System/apps/bc-meet-the-team/_config/2.png"
+    },
+        "menu-webapp-second_slide_on_home_page": {
+        "parent": "menu-webapps",
+        "weight": 20001,
+        "title": "SLIDE 2",
+        "icon": "/_System/apps/bc-meet-the-team/_config/2.png"
+    },
+        "menu-webapp-third_slide_on_home_page": {
+        "parent": "menu-webapps",
+        "weight": 30000,
+        "title": "SLIDE 3",
+        "icon": "/_System/apps/bc-meet-the-team/_config/3.png"
+    },
+        "menu-webapp-fourth_slide_on_home_page": {
+        "parent": "menu-webapps",
+        "weight": 40000,
+        "title": "SLIDE 4",
+         "icon": "/_System/apps/bc-meet-the-team/_config/4.png"
+    },
+        "menu-webapp-fifth_slide_on_home_page": {
+        "parent": "menu-webapps",
+        "weight": 50000,
+        "title": "SLIDE 5",
+            "icon": "/_System/apps/bc-meet-the-team/_config/5.png"
+    },
+        "menu-webapp-current-events": {
+        "parent": "menu-webapps",
+        "weight": 20000,
+        "title": "EVENTS",
+        "icon": "/_System/apps/bc-meet-the-team/_config/2.png"
+    },
+       
+         "menu-test1_google": {
+        "weight": 500000,
+        "icon": "/google/icons/google.png",
+        "title": "Google Apps",
+            "icon": "/_System/apps/bc-meet-the-team/_config/icon.png"
+    },
+    "menu-test1_google-webmail": {
+        "parent": "menu-test1_google",
+        "weight": 10,
+        "title": "Webmail",
+        "attr": {
+            "href": "https://mail.google.com",
+            "target": "_blank"
+        }
+    },
+    "menu-test1_google-drive": {
+        "parent": "menu-test1_google",
+        "weight": 20,
+        "title": "Drive",
+        "attr": {
+            "href": "https://drive.google.com",
+            "target": "_blank"
+        }
+    }
+}
